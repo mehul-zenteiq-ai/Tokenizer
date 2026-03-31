@@ -1,0 +1,159 @@
+====================================================================================================
+  TOKENIZER EVALUATION
+  Tokenizer: superbpe_dedup (auto: /home/sushmetha_zenteiq_com/superbpe_bytelevel_dedup/tokenizer.json)
+  Data:      /home/sushmetha_zenteiq_com/raw_storage_mount/final_tokenizer_test_data
+  Output:    /home/sushmetha_zenteiq_com/raw_storage_mount/final_tokenizer_test_data_eval/tokenizer_results/superbpe_dedup/
+  Workers:   80
+====================================================================================================
+
+  Enabled domains:  Code
+  Disabled domains: Math, Scientific, English, Multilingual
+
+Loading tokenizer...
+  Loaded: vocab_size=262,144, type=hf, time=2.0s
+  Encoder ready (backend: Rust encode_batch)
+
+  Code/Python                              0 shards
+  Code/Cpp                                 0 shards
+  Code/JavaScript                          0 shards
+  Code/Java                                0 shards
+  Code/HTML                                0 shards
+  Code/Fortran                             0 shards
+  Code/Rust                                0 shards
+  Code/C                                   0 shards
+  Code/TypeScript                          0 shards
+  Code/SQL                                 0 shards
+  Code/Shell                               0 shards
+
+  Total: 11 sources, 0 shards
+
+Starting evaluation...
+
+  ⚠️  Code/Python: no data directory found
+  ⚠️  Code/JavaScript: no data directory found
+  ⚠️  Code/Cpp: no data directory found
+  ⚠️  Code/Java: no data directory found
+  ⚠️  Code/HTML: no data directory found
+  ⚠️  Code/Fortran: no data directory found
+  ⚠️  Code/Rust: no data directory found
+  ⚠️  Code/C: no data directory found
+  ⚠️  Code/TypeScript: no data directory found
+  ⚠️  Code/SQL: no data directory found
+  ⚠️  Code/Shell: no data directory found
+
+====================================================================================================
+  EVALUATION SUMMARY
+====================================================================================================
+
+  Tokenizer:        superbpe_dedup (vocab=262,144)
+  ✅ Completed:      0 sources
+  ⏭️  Fully skipped:  0 sources (all shards already done)
+  ❌ Failed:         0 sources
+  ⚠️  No data:       11 sources
+
+  Shards evaluated:  0 (new)
+  Shards skipped:    0 (resumed)
+  Total tokens:      0.00B
+  Wall time:         0.0h (0m)
+
+  Per-domain breakdown:
+  Domain            Sources    Shards        Tokens
+  ──────────────────────────────────────────────────
+  Code                   11         0        0.00B
+
+  Per-source detail:
+    ⚠️  Code/C                                        0.00B  eval=    0  skip=    0  [NO_DATA]
+    ⚠️  Code/Cpp                                      0.00B  eval=    0  skip=    0  [NO_DATA]
+    ⚠️  Code/Fortran                                  0.00B  eval=    0  skip=    0  [NO_DATA]
+    ⚠️  Code/HTML                                     0.00B  eval=    0  skip=    0  [NO_DATA]
+    ⚠️  Code/Java                                     0.00B  eval=    0  skip=    0  [NO_DATA]
+    ⚠️  Code/JavaScript                               0.00B  eval=    0  skip=    0  [NO_DATA]
+    ⚠️  Code/Python                                   0.00B  eval=    0  skip=    0  [NO_DATA]
+    ⚠️  Code/Rust                                     0.00B  eval=    0  skip=    0  [NO_DATA]
+    ⚠️  Code/SQL                                      0.00B  eval=    0  skip=    0  [NO_DATA]
+    ⚠️  Code/Shell                                    0.00B  eval=    0  skip=    0  [NO_DATA]
+    ⚠️  Code/TypeScript                               0.00B  eval=    0  skip=    0  [NO_DATA]
+
+====================================================================================================
+  Results at: /home/sushmetha_zenteiq_com/raw_storage_mount/final_tokenizer_test_data_eval/tokenizer_results/superbpe_dedup
+  ✅ All sources evaluated successfully!
+====================================================================================================
+====================================================================================================
+  TOKENIZER EVALUATION
+  Tokenizer: superbpe_dedup (auto: /home/sushmetha_zenteiq_com/superbpe_bytelevel_dedup/tokenizer.json)
+  Data:      /home/sushmetha_zenteiq_com/raw_storage_mount/final_tokenizer_test_data
+  Output:    /home/sushmetha_zenteiq_com/raw_storage_mount/final_tokenizer_test_data_eval/tokenizer_results/superbpe_dedup/
+  Workers:   80
+====================================================================================================
+
+  Enabled domains:  Code
+  Disabled domains: Math, Scientific, English, Multilingual
+
+Loading tokenizer...
+  Loaded: vocab_size=262,144, type=hf, time=0.9s
+  Encoder ready (backend: Rust encode_batch)
+
+  Code/Python                            164 shards
+  Code/Cpp                               151 shards
+  Code/JavaScript                        145 shards
+  Code/Java                               70 shards
+  Code/HTML                               48 shards
+  Code/Fortran                             9 shards
+  Code/Rust                               12 shards
+  Code/C                                  53 shards
+  Code/TypeScript                         15 shards
+  Code/SQL                                29 shards
+  Code/Shell                              26 shards
+
+  Total: 11 sources, 722 shards
+
+Starting evaluation...
+
+  ✅ Code/Fortran: 9 new + 0 resumed = 9 shards, 1.86B tokens, 27.0m, 1M tok/s
+  ✅ Code/Rust: 12 new + 0 resumed = 12 shards, 2.46B tokens, 47.4m, 1M tok/s
+  ✅ Code/TypeScript: 15 new + 0 resumed = 15 shards, 2.70B tokens, 77.1m, 1M tok/s
+  ✅ Code/SQL: 29 new + 0 resumed = 29 shards, 6.96B tokens, 106.9m, 1M tok/s
+  ✅ Code/Shell: 26 new + 0 resumed = 26 shards, 5.61B tokens, 129.4m, 1M tok/s
+  ✅ Code/HTML: 48 new + 0 resumed = 48 shards, 18.17B tokens, 167.7m, 2M tok/s
+  ✅ Code/C: 53 new + 0 resumed = 53 shards, 12.01B tokens, 171.5m, 1M tok/s
+  ✅ Code/Java: 70 new + 0 resumed = 70 shards, 17.45B tokens, 253.9m, 1M tok/s
+  ✅ Code/Cpp: 151 new + 0 resumed = 151 shards, 35.31B tokens, 305.2m, 2M tok/s
+  ✅ Code/Python: 164 new + 0 resumed = 164 shards, 33.57B tokens, 328.1m, 2M tok/s
+  ✅ Code/JavaScript: 145 new + 0 resumed = 145 shards, 33.91B tokens, 330.7m, 2M tok/s
+
+====================================================================================================
+  EVALUATION SUMMARY
+====================================================================================================
+
+  Tokenizer:        superbpe_dedup (vocab=262,144)
+  ✅ Completed:      11 sources
+  ⏭️  Fully skipped:  0 sources (all shards already done)
+  ❌ Failed:         0 sources
+
+  Shards evaluated:  722 (new)
+  Shards skipped:    0 (resumed)
+  Total tokens:      170.01B
+  Wall time:         5.5h (331m)
+
+  Per-domain breakdown:
+  Domain            Sources    Shards        Tokens
+  ──────────────────────────────────────────────────
+  Code                   11       722      170.01B
+
+  Per-source detail:
+    ✅ Code/C                                       12.01B  eval=   53  skip=    0  [OK]
+    ✅ Code/Cpp                                     35.31B  eval=  151  skip=    0  [OK]
+    ✅ Code/Fortran                                  1.86B  eval=    9  skip=    0  [OK]
+    ✅ Code/HTML                                    18.17B  eval=   48  skip=    0  [OK]
+    ✅ Code/Java                                    17.45B  eval=   70  skip=    0  [OK]
+    ✅ Code/JavaScript                              33.91B  eval=  145  skip=    0  [OK]
+    ✅ Code/Python                                  33.57B  eval=  164  skip=    0  [OK]
+    ✅ Code/Rust                                     2.46B  eval=   12  skip=    0  [OK]
+    ✅ Code/SQL                                      6.96B  eval=   29  skip=    0  [OK]
+    ✅ Code/Shell                                    5.61B  eval=   26  skip=    0  [OK]
+    ✅ Code/TypeScript                               2.70B  eval=   15  skip=    0  [OK]
+
+====================================================================================================
+  Results at: /home/sushmetha_zenteiq_com/raw_storage_mount/final_tokenizer_test_data_eval/tokenizer_results/superbpe_dedup
+  ✅ All sources evaluated successfully!
+====================================================================================================

@@ -1,0 +1,51 @@
+====================================================================================================
+  TOKENIZER EVALUATION
+  Tokenizer: bloom_eval (hf: bigscience/bloom)
+  Data:      /home/sushmetha_zenteiq_com/raw_storage_mount/final_tokenizer_test_data
+  Output:    /home/sushmetha_zenteiq_com/raw_storage_mount/final_tokenizer_test_data_eval/tokenizer_results/bloom_eval/
+  Workers:   64
+====================================================================================================
+
+  Enabled domains:  Scientific
+  Disabled domains: Math, Code, English, Multilingual
+
+Loading tokenizer...
+  Loaded: vocab_size=250,680, type=hf, time=3.6s
+  Encoder ready (backend: Rust encode_batch)
+
+  Scientific/peS2o                             129 shards
+  Scientific/arxiv                              84 shards
+
+  Total: 2 sources, 213 shards
+
+Starting evaluation...
+
+====================================================================================================
+  TOKENIZER EVALUATION
+  Tokenizer: bloom_eval (hf: bigscience/bloom)
+  Data:      /home/sushmetha_zenteiq_com/raw_storage_mount/final_tokenizer_test_data
+  Output:    /home/sushmetha_zenteiq_com/raw_storage_mount/final_tokenizer_test_data_eval/tokenizer_results/bloom_eval/
+  Workers:   64
+====================================================================================================
+
+  Enabled domains:  Math, Scientific
+  Disabled domains: Code, English, Multilingual
+
+Loading tokenizer...
+  Loaded: vocab_size=250,680, type=hf, time=3.5s
+  Encoder ready (backend: Rust encode_batch)
+
+  Math/MathPile                           14 shards
+  Math/finemath4+                         79 shards
+  Math/finemath3+                        266 shards
+  Scientific/peS2o                             129 shards
+  Scientific/arxiv                              84 shards
+
+  Total: 5 sources, 572 shards
+
+Starting evaluation...
+
+  🔄 Scientific/arxiv: resuming — 19/84 shards done, 3.15B tokens so far
+  🔄 Scientific/peS2o: resuming — 12/129 shards done, 1.23B tokens so far
+  ✅ Math/MathPile: 14 new + 0 resumed = 14 shards, 2.08B tokens, 37.1m, 1M tok/s
+  ✅ Scientific/arxiv: 65 new + 19 resumed = 84 shards, 13.87B tokens, 112.8m, 2M tok/s

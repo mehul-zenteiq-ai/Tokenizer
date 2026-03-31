@@ -1,0 +1,305 @@
+================================================================================
+  500B TOKENIZER EVAL DATA — SOURCE VERIFICATION
+  Base path:  /home/sushmetha_zenteiq_com/raw_storage_mount
+  Output dir: /home/sushmetha_zenteiq_com/raw_storage_mount/smoke_test_data
+  Workers:    64
+================================================================================
+
+Registered 52 sources to verify.
+
+  ❌ Code/Cpp/BIGCODE                               files=     0  FAIL
+       ERROR: No files matched glob: /home/sushmetha_zenteiq_com/raw_storage_mount/Tokenizer_Data/BIGCODE/Cpp/*.arrow
+       ERROR: Parent exists but is empty or glob wrong. Contents: ['assembly', 'batchfile', 'c', 'c++', 'c-sharp', 'cmake', 'css', 'dockerfile', 'fortran', 'go']
+  ❌ Code/JavaScript/BIGCODE                        files=     0  FAIL
+       ERROR: No files matched glob: /home/sushmetha_zenteiq_com/raw_storage_mount/Tokenizer_Data/BIGCODE/JavaScript/*.arrow
+       ERROR: Parent exists but is empty or glob wrong. Contents: ['assembly', 'batchfile', 'c', 'c++', 'c-sharp', 'cmake', 'css', 'dockerfile', 'fortran', 'go']
+  ❌ Code/Python/BIGCODE                            files=     0  FAIL
+       ERROR: No files matched glob: /home/sushmetha_zenteiq_com/raw_storage_mount/Tokenizer_Data/BIGCODE/Python/*.arrow
+       ERROR: Parent exists but is empty or glob wrong. Contents: ['assembly', 'batchfile', 'c', 'c++', 'c-sharp', 'cmake', 'css', 'dockerfile', 'fortran', 'go']
+  ✅ Multilingual/Pashto/cc100                      files=     1  OK
+  ✅ Multilingual/Sinhala/cc100                     files=     1  OK
+  ✅ Math/MathPile/wikipedia                        files=     1  OK
+  ✅ Multilingual/Nepali/cc100                      files=     1  OK
+  ✅ Multilingual/Burmese/cc100                     files=     1  OK
+  ✅ Multilingual/German/cc100                      files=     1  OK
+  ✅ Multilingual/Korean/cc100                      files=     1  OK
+  ✅ Multilingual/Mandarin/cc100                    files=     1  OK
+  ✅ Math/MathPile/arXiv                            files=     1  OK
+  ⚠️  Scientific/arxiv                               files=    16  WARN
+       WARN:  Spot-check failed on file #5 (0005.jsonl.zst): Unterminated string starting at: line 1 column 10 (char 9)
+       WARN:  Spot-check failed on file #10 (0010.jsonl.zst): Unterminated string starting at: line 1 column 10 (char 9)
+  ✅ Scientific/peS2o                               files=    11  OK
+  ✅ Math/MathPile/commoncrawl                      files=     2  OK
+  ✅ Multilingual/Russian/cc100                     files=     1  OK
+  ✅ Multilingual/Farsi/cc100                       files=     1  OK
+  ✅ Math/MathPile/stackexchange                    files=    11  OK
+  ⚠️  Math/MathPile/textbooks                        files=     2  WARN
+       WARN:  Output dir not writable: /home/sushmetha_zenteiq_com/raw_storage_mount/smoke_test_data/Math/MathPile — [Errno 2] No such file or directory: '/home/sushmetha_zenteiq_com/raw_storage_mount/smoke_test_data/Math/MathPile/.write_test'
+  ✅ Math/finemath3+                                files=   128  OK
+  ✅ Multilingual/Japanese/cc100                    files=     1  OK
+  ✅ Multilingual/French/cc100                      files=     1  OK
+  ✅ Code/Fortran/BIGCODE                           files=     8  OK
+  ✅ English/dclm                                   files=  2790  OK
+  ✅ Math/finemath4+                                files=    64  OK
+  ✅ Code/HTML/starcoderdata                        files=    29  OK
+  ✅ Code/Rust/starcoderdata                        files=     9  OK
+  ✅ English/wikipedia                              files=    11  OK
+  ✅ Code/Cpp/starcoderdata                         files=    48  OK
+  ✅ Code/JavaScript/starcoderdata                  files=    65  OK
+  ✅ Code/Fortran/starcoderdata                     files=     2  OK
+  ✅ Multilingual/Odia/sangraha                     files=     1  OK
+  ✅ Code/Python/starcoderdata                      files=    59  OK
+  ✅ Code/HTML/BIGCODE                              files=    42  OK
+  ✅ English/fineweb_edu                            files=  2409  OK
+  ✅ Multilingual/Punjabi/sangraha                  files=     2  OK
+  ✅ Code/TypeScript/stack_edu                      files=     9  OK
+  ✅ Code/Shell/stack_edu                           files=     9  OK
+  ✅ Code/JavaScript/stack_edu                      files=    27  OK
+  ✅ Code/Java/stack_edu                            files=    41  OK
+  ✅ Code/C/stack_edu                               files=    12  OK
+  ✅ Code/Cpp/stack_edu                             files=    33  OK
+  ✅ Code/Python/stack_edu                          files=    40  OK
+  ✅ Multilingual/Tamil/sangraha                    files=    18  OK
+  ✅ Multilingual/Malayalam/sangraha                files=     6  OK
+  ✅ Multilingual/Marathi/sangraha                  files=     7  OK
+  ✅ Multilingual/Kannada/sangraha                  files=     4  OK
+  ✅ Multilingual/Gujarati/sangraha                 files=     4  OK
+  ✅ Multilingual/Bengali/sangraha                  files=    36  OK
+  ✅ Multilingual/Hindi/sangraha                    files=   113  OK
+  ✅ Multilingual/Urdu/sangraha                     files=     8  OK
+  ✅ Code/SQL/stack_edu                             files=     6  OK
+
+================================================================================
+  SUMMARY
+================================================================================
+  ✅ OK:   47
+  ⚠️  WARN: 2
+  ❌ FAIL: 3
+  Total:   52 sources verified in 14.1s
+
+  Files per domain:
+    Code           :      439 files
+    English        :    5,210 files
+    Math           :      209 files
+    Multilingual   :      210 files
+    Scientific     :       27 files
+
+────────────────────────────────────────────────────────────────────────────────
+  FAILURES (need fixing before curation):
+────────────────────────────────────────────────────────────────────────────────
+
+  ❌ Code/Cpp/BIGCODE
+     → No files matched glob: /home/sushmetha_zenteiq_com/raw_storage_mount/Tokenizer_Data/BIGCODE/Cpp/*.arrow
+     → Parent exists but is empty or glob wrong. Contents: ['assembly', 'batchfile', 'c', 'c++', 'c-sharp', 'cmake', 'css', 'dockerfile', 'fortran', 'go']
+
+  ❌ Code/JavaScript/BIGCODE
+     → No files matched glob: /home/sushmetha_zenteiq_com/raw_storage_mount/Tokenizer_Data/BIGCODE/JavaScript/*.arrow
+     → Parent exists but is empty or glob wrong. Contents: ['assembly', 'batchfile', 'c', 'c++', 'c-sharp', 'cmake', 'css', 'dockerfile', 'fortran', 'go']
+
+  ❌ Code/Python/BIGCODE
+     → No files matched glob: /home/sushmetha_zenteiq_com/raw_storage_mount/Tokenizer_Data/BIGCODE/Python/*.arrow
+     → Parent exists but is empty or glob wrong. Contents: ['assembly', 'batchfile', 'c', 'c++', 'c-sharp', 'cmake', 'css', 'dockerfile', 'fortran', 'go']
+
+────────────────────────────────────────────────────────────────────────────────
+  SAMPLE TEXTS (first 300 chars per source):
+────────────────────────────────────────────────────────────────────────────────
+
+  [OK] Code/C/stack_edu
+       files=12, cols/keys=['blob_id', 'language', 'repo_name', 'path', 'src_encoding', 'length_bytes', 'score', 'int_score', 'license_type', 'text', 'download_success'], rows_in_first_file=500734
+       text: call(unsigned long long int a,unsigned long long int b)\n {\n    /* if(a!=0)\n    call(b%a,a);\n    else{\n    return b;\n    }or*/\n    return a==0?b:call(b%a,a);\n }\nmain()\n{\n    unsigned long lo
+
+  [OK] Code/Cpp/stack_edu
+       files=33, cols/keys=['blob_id', 'language', 'repo_name', 'path', 'src_encoding', 'length_bytes', 'score', 'int_score', 'license_type', 'text', 'download_success'], rows_in_first_file=500735
+       text: #ifndef DATE_H\n#define DATE_H\n\n#include <string>\n\nclass Date {\npublic:\n    Date(int month, int day, int year);     // constructor\n    std::string GetMonthName() const;\n    int GetDay
+
+  [OK] Code/Cpp/starcoderdata
+       files=48, cols/keys=['max_stars_repo_path', 'max_stars_repo_name', 'max_stars_count', 'id', 'content'], rows_in_first_file=132366
+       text: /* Copyright (c) 2012 Cheese and Bacon Games, LLC */\n/* This file is licensed under the MIT License. */\n/* See the file docs/LICENSE.txt for the full license text. */\n\n#include "game.h"\n#include 
+
+  [OK] Code/Fortran/BIGCODE
+       files=8, cols/keys=['hexsha', 'size', 'ext', 'lang', 'max_stars_repo_path', 'max_stars_repo_name', 'max_stars_repo_head_hexsha', 'max_stars_repo_licenses', 'max_stars_count', 'max_stars_repo_stars_event_min_datetime', 'max_stars_repo_stars_event_max_datetime', 'max_issues_repo_path', 'max_issues_repo_name', 'max_issues_repo_head_hexsha', 'max_issues_repo_licenses', 'max_issues_count', 'max_issues_repo_issues_event_min_datetime', 'max_issues_repo_issues_event_max_datetime', 'max_forks_repo_path', 'max_forks_repo_name', 'max_forks_repo_head_hexsha', 'max_forks_repo_licenses', 'max_forks_count', 'max_forks_repo_forks_event_min_datetime', 'max_forks_repo_forks_event_max_datetime', 'content', 'avg_line_length', 'max_line_length', 'alphanum_fraction'], rows_in_first_file=None
+       text: ! Generated automatically.  DO NOT EDIT!\n\n\n  type, bind(C) :: fftwl_iodim\n     integer(C_INT) n, is, os\n  end type fftwl_iodim\n  type, bind(C) :: fftwl_iodim64\n     integer(C_INTPTR_T) n, is, o
+
+  [OK] Code/Fortran/starcoderdata
+       files=2, cols/keys=['max_stars_repo_path', 'max_stars_repo_name', 'max_stars_count', 'id', 'content'], rows_in_first_file=79396
+       text: <gh_stars>100-1000\n      SUBROUTINE SLAEIN( RIGHTV, NOINIT, N, H, LDH, WR, WI, VR, VI, B,\n     $                   LDB, WORK, EPS3, SMLNUM, BIGNUM, INFO )\n*\n*  -- LAPACK auxiliary routine (instrum
+
+  [OK] Code/HTML/BIGCODE
+       files=42, cols/keys=['hexsha', 'size', 'ext', 'lang', 'max_stars_repo_path', 'max_stars_repo_name', 'max_stars_repo_head_hexsha', 'max_stars_repo_licenses', 'max_stars_count', 'max_stars_repo_stars_event_min_datetime', 'max_stars_repo_stars_event_max_datetime', 'max_issues_repo_path', 'max_issues_repo_name', 'max_issues_repo_head_hexsha', 'max_issues_repo_licenses', 'max_issues_count', 'max_issues_repo_issues_event_min_datetime', 'max_issues_repo_issues_event_max_datetime', 'max_forks_repo_path', 'max_forks_repo_name', 'max_forks_repo_head_hexsha', 'max_forks_repo_licenses', 'max_forks_count', 'max_forks_repo_forks_event_min_datetime', 'max_forks_repo_forks_event_max_datetime', 'content', 'avg_line_length', 'max_line_length', 'alphanum_fraction'], rows_in_first_file=None
+       text: <!DOCTYPE html>\n<html>\n<head>\n    <meta charset="utf-8" />\n    <title>Gehol tools</title>\n    <link href='http://fonts.googleapis.com/css?family=Carme' rel='stylesheet' type='text/css'>\n    <scr
+
+  [OK] Code/HTML/starcoderdata
+       files=29, cols/keys=['max_stars_repo_path', 'max_stars_repo_name', 'max_stars_count', 'id', 'content'], rows_in_first_file=113792
+       text: <filename>docs/api/1.42.0/interfaces/_sap_cloud_sdk_core.destination.html\n<!doctype html>\n<html class="default no-js">\n<head>\n	<meta charset="utf-8">\n	<meta http-equiv="X-UA-Compatible" content="
+
+  [OK] Code/Java/stack_edu
+       files=41, cols/keys=['blob_id', 'language', 'repo_name', 'path', 'src_encoding', 'length_bytes', 'score', 'int_score', 'license_type', 'text', 'download_success'], rows_in_first_file=500736
+       text: package com.fight2.entity;\n\nimport java.util.List;\n\npublic class UserArenaInfo {\n    private int rankNumber;\n    private int might;\n    private int win;\n    private int lose;\n    pri
+
+  [OK] Code/JavaScript/stack_edu
+       files=27, cols/keys=['blob_id', 'language', 'repo_name', 'path', 'src_encoding', 'length_bytes', 'score', 'int_score', 'license_type', 'text', 'download_success'], rows_in_first_file=500736
+       text: const nomInput = document.querySelector("#nom");\nconst prenomInput = document.querySelector("#prenom");\nconst ageInput = document.querySelector("#age");\nconst genreInput = document.querySelector("#
+
+  [OK] Code/JavaScript/starcoderdata
+       files=65, cols/keys=['max_stars_repo_path', 'max_stars_repo_name', 'max_stars_count', 'id', 'content'], rows_in_first_file=300682
+       text: <reponame>olgn/bids-validator<filename>bids-validator/validators/bids/obj.js\nmodule.exports = {\n  options: {},\n  issues: [],\n  summary: {\n    sessions: [],\n    subjects: [],\n    tasks: [],\n   
+
+  [OK] Code/Python/stack_edu
+       files=40, cols/keys=['blob_id', 'language', 'repo_name', 'path', 'src_encoding', 'length_bytes', 'score', 'int_score', 'license_type', 'text', 'download_success'], rows_in_first_file=500736
+       text: #multiply 2 no.s\na=10\nb=20\nc=a*b\nprint("multiplication of 10 and 20",a,"*",b,"=", c)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n   \n
+
+  [OK] Code/Python/starcoderdata
+       files=59, cols/keys=['max_stars_repo_path', 'max_stars_repo_name', 'max_stars_count', 'id', 'content'], rows_in_first_file=218079
+       text: <reponame>MTES-MCT/sparte\nfrom rest_framework_gis import serializers\nfrom rest_framework import serializers as s\n\nfrom .models import (\n    Artificialisee2015to2018,\n    Artificielle2018,\n    C
+
+  [OK] Code/Rust/starcoderdata
+       files=9, cols/keys=['max_stars_repo_path', 'max_stars_repo_name', 'max_stars_count', 'id', 'content'], rows_in_first_file=153386
+       text: <reponame>tranzystorek-io/dua-cli\nuse crate::interactive::{\n    widgets::{\n        Entries, EntriesProps, Footer, FooterProps, Header, HelpPane, HelpPaneProps, MarkPane,\n        MarkPaneProps, COL
+
+  [OK] Code/SQL/stack_edu
+       files=6, cols/keys=['blob_id', 'language', 'repo_name', 'path', 'src_encoding', 'length_bytes', 'score', 'int_score', 'license_type', 'text', 'download_success'], rows_in_first_file=500736
+       text: -- 12.6 Pivoting a Result Set to Facilitate Inter-Row Calculations --\nselect d20_sal - d10_sal as d20_10_diff, d20_sal - d30_sal as d20_30_diff\n  from (\n    select\n      sum(\n        case\n      
+
+  [OK] Code/Shell/stack_edu
+       files=9, cols/keys=['blob_id', 'language', 'repo_name', 'path', 'src_encoding', 'length_bytes', 'score', 'int_score', 'license_type', 'text', 'download_success'], rows_in_first_file=500735
+       text: #!/bin/bash\n# note, this is only part of the ldap client install script.  These are the relevent sed lines.\n\napt-get update\nexport DEBIAN_FRONTEND=noninteractive\napt -y install libnss-ldap libpam
+
+  [OK] Code/TypeScript/stack_edu
+       files=9, cols/keys=['blob_id', 'language', 'repo_name', 'path', 'src_encoding', 'length_bytes', 'score', 'int_score', 'license_type', 'text', 'download_success'], rows_in_first_file=500736
+       text: import { hash } from "./hash";\nimport { eq } from "./eq";\nimport { JSON } from "../../JSON";\n\nexport type CountedOrderedSet = ReturnType<typeof CountedOrderedSet>;\n\nexport function CountedOrdere
+
+  [OK] English/dclm
+       files=2790, cols/keys=['bff_contained_ngram_count_before_dedupe', 'fasttext_openhermes_reddit_eli5_vs_rw_v2_bigram_200k_train_prob', 'language_id_whole_page_fasttext', 'metadata', 'previous_word_count', 'text', 'url', 'warcinfo'], rows_in_first_file=None
+       text: Related videos by Shutterstock\n\n\ncredosian's picture\n272 pencils\n\nMEAT also means FLESh---------\n\nMEAT MARKET is a slang for the prostitution industry\n\nbut if that is the idea here------- gr
+
+  [OK] English/fineweb_edu
+       files=2409, cols/keys=['text', 'id', 'dump', 'url', 'file_path', 'language', 'language_score', 'token_count', 'score', 'int_score'], rows_in_first_file=785906
+       text: No. 24; Updated March 2011\nClick here to download and print a PDF version of this document.\nParents are usually the first to recognize that their child has a problem with emotions or behavior. Still
+
+  [OK] English/wikipedia
+       files=11, cols/keys=['content', 'meta', 'red_pajama_subset'], rows_in_first_file=602787
+       text: David Brian Cone (born January 2, 1963) is an American former Major League Baseball (MLB) pitcher, and current color commentator for the New York Yankees on the YES Network and WPIX as well as for ESP
+
+  [OK] Math/MathPile/arXiv
+       files=1, cols/keys=['file_path', 'meta', 'subset', 'text'], rows_in_first_file=None
+       text: \begin{document}\n\n \newcommand{\tgreen}[1]{\textsf{\textcolor {ForestGreen} {#1}}}\n \newcommand{\tred}[1]{\texttt{\textcolor {red} {#1}}}\n \newcommand{\tblue}[1]{\textcolor {blue} {#1}}\n\n\title{
+
+  [OK] Math/MathPile/commoncrawl
+       files=2, cols/keys=['file_path', 'meta', 'subset', 'text'], rows_in_first_file=None
+       text: Abstract: We propose a new, constant-round protocol for multi-party computation of boolean circuits that is secure against an arbitrary number of malicious corruptions. At a high level, we extend and 
+
+  [OK] Math/MathPile/stackexchange
+       files=11, cols/keys=['answers', 'file_path', 'question', 'subset'], rows_in_first_file=None
+       text: In general, the problem of identifying dates and other temporal markers in text is called the problem of extracting temporal references. The search linked will take you to papers related to this. \n
+
+  [WARN] Math/MathPile/textbooks
+       files=2, cols/keys=['file_path', 'meta', 'subset', 'text'], rows_in_first_file=None
+       text: \n\n# Fundamentals of digital signal processing\n\nDigital signal processing (DSP) is a field that deals with the manipulation and analysis of digital signals. These signals are discrete representatio
+
+  [OK] Math/MathPile/wikipedia
+       files=1, cols/keys=['file_path', 'meta', 'subset', 'text'], rows_in_first_file=None
+       text: Abel–Goncharov interpolation\n\nIn mathematics, Abel–Goncharov interpolation determines a polynomial such that various higher derivatives are the same as those of a given function at given points. It 
+
+  [OK] Math/finemath3+
+       files=128, cols/keys=['url', 'fetch_time', 'content_mime_type', 'warc_filename', 'warc_record_offset', 'warc_record_length', 'text', 'token_count', 'char_count', 'metadata', 'score', 'int_score', 'crawl', 'snapshot_type', 'language', 'language_score'], rows_in_first_file=167232
+       text: 1\nJEE Main 2022 (Online) 26th July Morning Shift\n+4\n-1\n\nLet f : R $$\to$$ R be a continuous function such that $$f(3x) - f(x) = x$$. If $$f(8) = 7$$, then $$f(14)$$ is equal to :\n\nA\n4\nB\n10\n
+
+  [OK] Math/finemath4+
+       files=64, cols/keys=['url', 'fetch_time', 'content_mime_type', 'warc_filename', 'warc_record_offset', 'warc_record_length', 'text', 'token_count', 'char_count', 'metadata', 'score', 'int_score', 'crawl', 'snapshot_type', 'language', 'language_score'], rows_in_first_file=104680
+       text: # What is the term”exclamation mark” in mathematics?\n\nThe answer is easy. Below are some approaches to inform as soon as an equation can be really actually a multiplication equation and also how to 
+
+  [OK] Multilingual/Bengali/sangraha
+       files=36, cols/keys=['doc_id', 'text'], rows_in_first_file=174762
+       text: ০	নিউজ ডেস্কঃ সিলেটের দক্ষিণ সুরমার কাজী পরিবারের 'দুই কইন্যা' এখন বড় অসহায়। একই গোষ্ঠীর স্বজনদের ক্রমাগত হুমকির কারণে মৃত্যু তাড়া করে ফিরছে তাদের। ইতিমধ্যে তাদের উপর হয়েছে হামলা। গোষ্ঠীর পাঁচের ব
+
+  [OK] Multilingual/Burmese/cc100
+       files=1, cols/keys=['(plain text lines)'], rows_in_first_file=None
+       text: အပိုင်း ၁ သင်ခန်းစာ ၃ ကုဒ်လျှော့ရေးပါ\n“အနည်းဆုံးသုံးစွဲခြင်းဖြင့် အရာရာပြည့်စုံလုံလောက်ပါစေ” – Jules Verne\nဒီခေတ်ကြီးမှာ ကုဒ်တွေအရမ်းများလွန်းနေတယ် ဒါဟာ ၀မ်းနည်းစရာကောင်းပေမဲ့ မှန်ကန်တဲ့အကြောင်းအချက
+
+  [OK] Multilingual/Farsi/cc100
+       files=1, cols/keys=['(plain text lines)'], rows_in_first_file=None
+       text: آشپزخانه کوچک من: February 2012\nآشپزخانه کوچک من\nبکینگ پودر:2 قاشق چای خوری\nتخم مرغ:2 عدد بزرگ\nکره:225 گرم به دمای اتاق رسیده\nشکر:1و1/2 پیمانه+ 3 قاشق غذا خوری\nپودر دارچین:2 و1/2قاشق چای خوری\nف
+
+  [OK] Multilingual/French/cc100
+       files=1, cols/keys=['(plain text lines)'], rows_in_first_file=None
+       text: Bon, comme je ne suis pas le seul à avoir envisagé de créer ce sujet, je me suis dis qu'il était peut être temps de le commencer.\nVous dites ce que vous voulez, faut justes des infos autour desquelle
+
+  [OK] Multilingual/German/cc100
+       files=1, cols/keys=['(plain text lines)'], rows_in_first_file=None
+       text: Bereits eine Woche vorher am Samstag, 2. Dezember ist die „Püngel-Weihnacht“ in Siegburg-Kaldauen um 18 Uhr (Einlass 17.30 Uhr) im Restaurant Kaldauer Hof zu hören. Hier ist im Eintrittspreis von 18,5
+
+  [OK] Multilingual/Gujarati/sangraha
+       files=4, cols/keys=['doc_id', 'text'], rows_in_first_file=146744
+       text: તમારા રસોડાના મંત્રીમંડળ માટે રંગ પસંદ કરવામાં મુશ્કેલી આવી રહી છે? તેમને ટુ-ટોન પેઇન્ટ જોબ કેમ ન આપો?\nવ્હાઇટ સબવે ટાઇલ બેકસ્પ્લેશ ભવ્ય છે, તેઓ ક્લાસિક છે, અને ... તેઓ દરેક જગ્યાએ છે. અહીં સાત સ્ટાઇલ
+
+  [OK] Multilingual/Hindi/sangraha
+       files=113, cols/keys=['doc_id', 'text'], rows_in_first_file=149796
+       text: बनारस से प्रकाशित "पूर्वांचल आजकल" के बंद होने की चर्चा । No. 1 Indian Media News Portal\nबनारस से प्रकाशित "पूर्वांचल आजकल" के बंद होने की चर्चा\nबनारस से प्रकाशित सांध्य दैनिक के बंद होने की चर्चाएं
+
+  [OK] Multilingual/Japanese/cc100
+       files=1, cols/keys=['(plain text lines)'], rows_in_first_file=None
+       text: 午後から雨が心配だったので遠出はせず、『ふれあいロード』を走って来ました！\n確実に春が近づいてることを肌で感じることが出来ました 着々と整備されてる圏央道を越えるとお世話になってるボウリング場が見えて来ました。\nうぅ〜〜、私が途中でトイレに行きたくなってしまい、通り道にあったケンタに変更しちゃいました。\n実は、１年程前にエルモサの右目の黒目の端によ〜く見ないと分からない程の小さな斑を見つけて
+
+  [OK] Multilingual/Kannada/sangraha
+       files=4, cols/keys=['doc_id', 'text'], rows_in_first_file=156394
+       text: Article-20180602.02.08 | Articles | ಸಮಾಜಮುಖಿ\nಗುಣಮಟ್ಟದ ಶಿಕ್ಷಣ ಮತ್ತು ಸಂಶೋಧನೆಯಲ್ಲಿ ಭಾರತದ ಸ್ಥಾನ ಏನು? ನಮ್ಮದೇ ಆದ ಹಾರ್ವರ್ಡ್ನ್ನು ನಾವು ಹೊಂದುವುದು ಯಾವಾಗ?\nಮೀಸಲು ಹಾಗೂ ಭ್ರಷ್ಟಾಚಾರದಿಂದಾಗಿ ಭಾರತದಲ್ಲಿ ವಿಶ್ವ ದರ್ಜೆಯ ಮೂರ
+
+  [OK] Multilingual/Korean/cc100
+       files=1, cols/keys=['(plain text lines)'], rows_in_first_file=None
+       text: + HOME > 라이브스코어\n특히 주소 15~17번 홀에선 3연속 보기로 황금의제국카지노 홀아웃했다.\n1편인'신과함께-죄와 벌'이 천만을 넘은 만큼 2편을 기다린 황금의제국카지노 관객들의 기대와 주소 관심은 폭발적이다.\n고려해서 주소 '대체재 일색'의 분재를 내놓을 위험이 있다. 문학의 자유를 소설가가 스스로 황금의제국카지노 출판사에 상납하는 것이다.
+
+  [OK] Multilingual/Malayalam/sangraha
+       files=6, cols/keys=['doc_id', 'text'], rows_in_first_file=171125
+       text: കൊവിഡ് വാക്സിൻ സർട്ടിഫിക്കറ്റിൽ നിന്ന് നരേന്ദ്രമോദിയുടെ ചിത്രം നീക്കി ഛത്തീസ്ഗഡ്\nകൊവിഡ് വാക്സിൻ സർട്ടിഫിക്കറ്റിൽ നിന്ന് പ്രധാനമന്ത്രി നരേന്ദ്രമോദിയുടെ ചിത്രം നീക്കി ഛത്തീസ്ഗഡ്. കേന്ദ്രത്തിൽ നിന്ന് വാ
+
+  [OK] Multilingual/Mandarin/cc100
+       files=1, cols/keys=['(plain text lines)'], rows_in_first_file=None
+       text: 卍招财带什么佛牌卍(www.suzastampin.com)卡尔・斯利姆于2012年加入塔塔汽车公司担任总经理一职，并负责公司在印度及国际市场上除捷豹和路虎以外的业务。这位斯坦福大学的毕业生，曾任通用汽车在中国合资公司的。近日，编辑专门联系到山西传奇北京现代汽车4S店得知，店内朗动车型有现车供应，现阶段购车可享受最高6000元优惠幅度，具体的车型和价格情况请见下表，同时感兴趣的朋友还可致电4008
+
+  [OK] Multilingual/Marathi/sangraha
+       files=7, cols/keys=['doc_id', 'text'], rows_in_first_file=149796
+       text: पुणे । शिरूर लोकसभा मतदार संघात येणाऱ्या पुणे- नगर रस्त्याचे काम गेल्या अनेक दिवसांपासून रखडले आहे. या मार्गावर होणारी वाहतूक कोंडी गेल्या अनेक वर्षांपासून डोकेदुखी ठरत आहे. यामुळे या रस्त्याचे काम कध
+
+  [OK] Multilingual/Nepali/cc100
+       files=1, cols/keys=['(plain text lines)'], rows_in_first_file=None
+       text: वैशाख २१ – आर्सनललाई हराउँदै एथ्लेटिको मड्रिड युरोपा लिगको फाइनलमा प्रवेश गरेको छ ।\nघरेलु मैदानमा भएको च्याम्पियन्स लिगको दोस्रो लेगमा एथ्लेटिको मड्रिडले आर्सनललाई एक शून्यले हराउँदै समग्रमा दुई एकको
+
+  [OK] Multilingual/Odia/sangraha
+       files=1, cols/keys=['doc_id', 'text'], rows_in_first_file=44330
+       text: ଭୁବନେଶ୍ବରଃ ତିନି ନୂଆ କୃଷି ଆଇନକୁ ଉଚ୍ଛେଦ କରାଯିବା ନେଇ ପ୍ରଧାନମନ୍ତ୍ରୀ ନରେନ୍ଦ୍ର ମୋଦୀଙ୍କ ଘୋଷଣାକୁ ସ୍ୱାଗତ କରିଛନ୍ତି ମୁଖ୍ୟମନ୍ତ୍ରୀ ନବୀନ ପଟ୍ଟନାୟକ। ଏନେଇ ନିଜର ଟୁଇଟରରେ ମୁଖ୍ୟମନ୍ତ୍ରୀ ଲେଖିଛନ୍ତି, ଦେଶର ଏବଂ ଏହାର କୃଷକଙ୍କ ହିତ
+
+  [OK] Multilingual/Pashto/cc100
+       files=1, cols/keys=['(plain text lines)'], rows_in_first_file=None
+       text: ددغسې یوې چټکې ډېجټل نړۍ سره ګام په ګام تګ د جګړه ځپلي هېواد لپاره لویه ننګونه ده خو د دې سره سره مجبور دی چې له نړۍ سره ځان همغاړی کړي.\n\nد اتریش په پلازمېنه وین کې ۵ افغان کډوالو ځانونو ته اور اچول
+
+  [OK] Multilingual/Punjabi/sangraha
+       files=2, cols/keys=['doc_id', 'text'], rows_in_first_file=97677
+       text: ਦੇਸ਼ ਦੇ ਆਰਥਿਕ ਹਾਲਾਤਾਂ ਨੂੰ ਲੈ ਕੇ ਬੋਲੇ ਡਾ. ਮਨਮੋਹਨ ਸਿੰਘ, ਕਿਹਾ- ਮੋਦੀ ਸਰਕਾਰ ਦੀਆਂ ਗਲਤੀਆਂ ਕਾਰਨ ਆਈ ਮੰਦੀ,ਨਵੀਂ ਦਿੱਲੀਃ ਚਾਲੂ ਵਿੱਤੀ ਸਾਲ ਦੀ ਪਹਿਲੀ ਤਿਮਾਹੀ 'ਚ ਆਰਥਿਕ ਵਾਧਾ ਦਰ ਘਟ ਕੇ ਪੰਜ ਫੀਸਦੀ 'ਤੇ ਆਉਣ ਦੇ ਦੌਰਾਨ ਦੇਸ਼ ਦੇ ਸਾਬ
+
+  [OK] Multilingual/Russian/cc100
+       files=1, cols/keys=['(plain text lines)'], rows_in_first_file=None
+       text: Замглавы управления развития и регулирования национальной платежной системы департамента национальной платежной системы Центробанка РФ Елена Руднева отметила, что банкам законодательно запрещено удерж
+
+  [OK] Multilingual/Sinhala/cc100
+       files=1, cols/keys=['(plain text lines)'], rows_in_first_file=None
+       text: දෙන්නගෙම වෙළෙඳ ආයතනයයි. F.M. දෙරණ වැඩසටහන් සජීවී ගුවන් විදුලි වැඩසටහන් මෙහි නිෂ්පාදනය කරනවා.\nඔබගේ පවුලේ අයත් පදිංචි නාවලම නේද.\nඔව්. ගාමින්ද ජීවත්වන නාවලමයි අපිත් ඉන්නේ බිරිය රසිනි බණ්ඩාර දැනට මනෝ වි
+
+  [OK] Multilingual/Tamil/sangraha
+       files=18, cols/keys=['doc_id', 'text'], rows_in_first_file=116508
+       text: சிரியா மீதான தாக்குதல் ஏகாதிபத்திய இராணுவ அடக்குமுறையின் மற்றுமொரு கொடூரமான கட்டம்!\nஇறையாண்மை கொண்ட நாடான சிரியா மீதான கொடூரமான தாக்குதலை தாம் வன்மையாக கண்டிப்பதாக மக்கள் விடுதலை முன்னணி தெரிவித்துள்
+
+  [OK] Multilingual/Urdu/sangraha
+       files=8, cols/keys=['doc_id', 'text'], rows_in_first_file=174763
+       text: نئی دہلی 26 ؍جولائی : کیمیکل اورفرٹیلائزرزاور صحت وخاندانی بہبود کے مرکزی وزیرجناب منسکھ منڈاویا نے فرٹیلائزرز کی پیداوارکے لئے ملک میں خام مال کی صورت حال کا جائزہ لینے کے لئے آج ایک اعلی سطحی میٹنگ 
+
+  [WARN] Scientific/arxiv
+       files=16, cols/keys=['annotation', 'meta', 'red_pajama_subset', 'text'], rows_in_first_file=None
+       text: \section{Principle of nano strain-amplifier}\n\n\begin{figure*}[t!]\n	\centering\n	\includegraphics[width=5.4in]{Fig1}\n		\vspace{-0.5em}\n	\caption{Schematic sketches of nanowire strain sensors
+
+  [OK] Scientific/peS2o
+       files=11, cols/keys=['added', 'created', 'id', 'source', 'text', 'version'], rows_in_first_file=None
+       text: [Short-term effectiveness of anterior cruciate ligament reconstruction with LARs artificial ligament].\n\nOBJECTIVE\nTo investigate the surgical technique and short-term effectiveness of anterior cruc
+
+================================================================================
+  ⚠️  3 source(s) FAILED — fix before running curation.
+================================================================================

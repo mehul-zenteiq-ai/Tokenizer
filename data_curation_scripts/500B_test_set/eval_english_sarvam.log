@@ -1,0 +1,103 @@
+====================================================================================================
+  ENGLISH TOKENIZER EVALUATION
+  Tokenizer: sarvam-30b (auto: sarvamai/sarvam-30b)
+  Data:      /home/sushmetha_zenteiq_com/raw_storage_mount/final_tokenizer_test_data
+  Output:    /home/sushmetha_zenteiq_com/raw_storage_mount/final_tokenizer_test_data_eval/tokenizer_results/sarvam-30b/English/
+  Workers:   20
+  Shards:    wiki=all, dclm=first 500, fineweb=first 500
+====================================================================================================
+
+Loading tokenizer...
+====================================================================================================
+  ENGLISH TOKENIZER EVALUATION
+  Tokenizer: sarvam-30b (auto: sarvamai/sarvam-30b)
+  Data:      /home/sushmetha_zenteiq_com/raw_storage_mount/final_tokenizer_test_data
+  Output:    /home/sushmetha_zenteiq_com/raw_storage_mount/final_tokenizer_test_data_eval/tokenizer_results/sarvam-30b/English/
+  Workers:   20
+  Shards:    wiki=all, dclm=first 500, fineweb=first 500
+====================================================================================================
+
+Loading tokenizer...
+====================================================================================================
+  ENGLISH TOKENIZER EVALUATION
+  Tokenizer: sarvam-30b (auto: sarvamai/sarvam-30b)
+  Data:      /home/sushmetha_zenteiq_com/raw_storage_mount/final_tokenizer_test_data
+  Output:    /home/sushmetha_zenteiq_com/raw_storage_mount/final_tokenizer_test_data_eval/tokenizer_results/sarvam-30b/English/
+  Workers:   20
+  Shards:    wiki=all, dclm=first 500, fineweb=first 500
+====================================================================================================
+
+Loading tokenizer...
+====================================================================================================
+  ENGLISH TOKENIZER EVALUATION
+  Tokenizer: sarvam-30b (hf: sarvamai/sarvam-30b)
+  Data:      /home/sushmetha_zenteiq_com/raw_storage_mount/final_tokenizer_test_data
+  Output:    /home/sushmetha_zenteiq_com/raw_storage_mount/final_tokenizer_test_data_eval/tokenizer_results/sarvam-30b/English/
+  Workers:   20
+  Shards:    wiki=all, dclm=first 500, fineweb=first 500
+====================================================================================================
+
+Loading tokenizer...
+  Loaded: vocab_size=262,144, type=hf, time=8.7s
+  Encoder: Rust encode_batch
+
+  wikipedia           44 shards  (0 already done, 44 remaining)
+  dclm               500 shards  (0 already done, 500 remaining)
+  fineweb_edu        500 shards  (0 already done, 500 remaining)
+
+  Total: 1,044 shards (0 done, 1,044 remaining)
+
+Starting evaluation with 20 threads...
+
+====================================================================================================
+  ENGLISH TOKENIZER EVALUATION
+  Tokenizer: sarvam-30b (hf: sarvamai/sarvam-30b)
+  Data:      /home/sushmetha_zenteiq_com/raw_storage_mount/final_tokenizer_test_data
+  Output:    /home/sushmetha_zenteiq_com/raw_storage_mount/final_tokenizer_test_data_eval/tokenizer_results/sarvam-30b/English/
+  Workers:   20
+  Shards:    wiki=all, dclm=first 500, fineweb=first 500
+====================================================================================================
+
+Loading tokenizer...
+  Loaded: vocab_size=262,144, type=hf, time=3.6s
+  Encoder: Rust encode_batch
+
+  wikipedia           44 shards  (44 already done, 0 remaining)
+  dclm               500 shards  (359 already done, 141 remaining)
+  fineweb_edu        500 shards  (0 already done, 500 remaining)
+
+  Total: 1,044 shards (403 done, 641 remaining)
+
+Starting evaluation with 20 threads...
+
+
+  Evaluation phase done: 1,044 OK, 0 errors, 91.6m wall time
+
+Assembling master.csv files...
+
+  ✅ English/wikipedia: 44 shards, 4.97B tokens → /home/sushmetha_zenteiq_com/raw_storage_mount/final_tokenizer_test_data_eval/tokenizer_results/sarvam-30b/English/wikipedia/master.csv
+  ✅ English/dclm: 500 shards, 50.16B tokens → /home/sushmetha_zenteiq_com/raw_storage_mount/final_tokenizer_test_data_eval/tokenizer_results/sarvam-30b/English/dclm/master.csv
+  ✅ English/fineweb_edu: 500 shards, 49.94B tokens → /home/sushmetha_zenteiq_com/raw_storage_mount/final_tokenizer_test_data_eval/tokenizer_results/sarvam-30b/English/fineweb_edu/master.csv
+
+====================================================================================================
+  ENGLISH EVALUATION SUMMARY
+====================================================================================================
+
+  Tokenizer:    sarvam-30b (vocab=262,144)
+  Total shards: 1,044
+  Total tokens: 105.07B
+  Errors:       0
+  Wall time:    1.5h (93m)
+
+  Per-source:
+  Source             Shards        Tokens
+  ────────────────────────────────────────
+  wikipedia              44        4.97B
+  dclm                  500       50.16B
+  fineweb_edu           500       49.94B
+
+  Output: /home/sushmetha_zenteiq_com/raw_storage_mount/final_tokenizer_test_data_eval/tokenizer_results/sarvam-30b/English/
+
+====================================================================================================
+  ✅ All English shards evaluated successfully!
+====================================================================================================

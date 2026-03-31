@@ -1,0 +1,103 @@
+================================================================================
+  ENGLISH TOKEN ESTIMATION
+================================================================================
+
+  Wikipedia:
+    Files:      11
+    Total size: 11.3 GB
+
+  DCLM:
+    Files:      2,790
+    Total size: 672.3 GB
+
+  FineWeb-Edu:
+    Files:      2,409
+    Total size: 4,210.0 GB
+
+  Sampling 30 files across 3 sources...
+  Using 48 workers
+
+    [1/30] ✅ DCLM/shard_00000000_processed.jsonl.zst: 0.070B tokens, 129MB, ratio=0.52 tok/byte, 4.2s
+    [2/30] ✅ DCLM/shard_00000000_processed.jsonl.zst: 0.070B tokens, 130MB, ratio=0.52 tok/byte, 4.2s
+    [3/30] ✅ DCLM/shard_00000000_processed.jsonl.zst: 0.070B tokens, 128MB, ratio=0.52 tok/byte, 4.2s
+    [4/30] ✅ DCLM/shard_00000000_processed.jsonl.zst: 0.067B tokens, 123MB, ratio=0.52 tok/byte, 4.2s
+    [5/30] ✅ DCLM/shard_00000000_processed.jsonl.zst: 0.069B tokens, 127MB, ratio=0.52 tok/byte, 4.6s
+    [6/30] ✅ DCLM/shard_00000000_processed.jsonl.zst: 0.072B tokens, 133MB, ratio=0.52 tok/byte, 4.6s
+    [7/30] ✅ DCLM/shard_00000000_processed.jsonl.zst: 0.079B tokens, 145MB, ratio=0.52 tok/byte, 4.6s
+    [8/30] ✅ DCLM/shard_00000000_processed.jsonl.zst: 0.078B tokens, 142MB, ratio=0.52 tok/byte, 4.7s
+    [9/30] ✅ DCLM/shard_00000000_processed.jsonl.zst: 0.079B tokens, 144MB, ratio=0.52 tok/byte, 4.7s
+    [10/30] ✅ DCLM/shard_00000000_processed.jsonl.zst: 0.114B tokens, 207MB, ratio=0.52 tok/byte, 7.0s
+    [11/30] ✅ Wikipedia/train-00002-of-00011.parquet: 0.290B tokens, 775MB, ratio=0.36 tok/byte, 17.3s
+    [12/30] ✅ Wikipedia/train-00006-of-00011.parquet: 0.285B tokens, 763MB, ratio=0.36 tok/byte, 17.4s
+    [13/30] ✅ FineWeb-Edu/000_00018.parquet: 0.309B tokens, 819MB, ratio=0.36 tok/byte, 17.9s
+    [14/30] ✅ Wikipedia/train-00009-of-00011.parquet: 0.295B tokens, 792MB, ratio=0.36 tok/byte, 18.0s
+    [15/30] ✅ Wikipedia/train-00005-of-00011.parquet: 0.314B tokens, 835MB, ratio=0.36 tok/byte, 18.2s
+    [16/30] ✅ FineWeb-Edu/000_00027.parquet: 0.318B tokens, 843MB, ratio=0.36 tok/byte, 18.8s
+    [17/30] ✅ Wikipedia/train-00008-of-00011.parquet: 0.314B tokens, 842MB, ratio=0.36 tok/byte, 19.0s
+    [18/30] ✅ Wikipedia/train-00007-of-00011.parquet: 0.367B tokens, 984MB, ratio=0.36 tok/byte, 20.9s
+    [19/30] ✅ Wikipedia/train-00004-of-00011.parquet: 0.374B tokens, 995MB, ratio=0.36 tok/byte, 21.6s
+    [20/30] ✅ Wikipedia/train-00001-of-00011.parquet: 0.429B tokens, 1147MB, ratio=0.36 tok/byte, 25.2s
+    [21/30] ✅ FineWeb-Edu/000_00009.parquet: 0.552B tokens, 1471MB, ratio=0.36 tok/byte, 31.1s
+    [22/30] ✅ Wikipedia/train-00003-of-00011.parquet: 0.641B tokens, 1663MB, ratio=0.37 tok/byte, 37.7s
+    [23/30] ✅ Wikipedia/train-00000-of-00011.parquet: 0.765B tokens, 2020MB, ratio=0.36 tok/byte, 41.6s
+    [24/30] ✅ FineWeb-Edu/train-00001-of-00014.parquet: 0.792B tokens, 2150MB, ratio=0.35 tok/byte, 43.1s
+    [25/30] ✅ FineWeb-Edu/train-00013-of-00016.parquet: 0.821B tokens, 2226MB, ratio=0.35 tok/byte, 45.1s
+    [26/30] ✅ FineWeb-Edu/train-00002-of-00026.parquet: 0.835B tokens, 2240MB, ratio=0.36 tok/byte, 46.3s
+    [27/30] ✅ FineWeb-Edu/train-00001-of-00016.parquet: 0.832B tokens, 2259MB, ratio=0.35 tok/byte, 46.4s
+    [28/30] ✅ FineWeb-Edu/train-00014-of-00022.parquet: 0.816B tokens, 2195MB, ratio=0.35 tok/byte, 46.6s
+    [29/30] ✅ FineWeb-Edu/train-00000-of-00015.parquet: 0.843B tokens, 2282MB, ratio=0.35 tok/byte, 47.0s
+    [30/30] ✅ FineWeb-Edu/train-00000-of-00014.parquet: 0.832B tokens, 2260MB, ratio=0.35 tok/byte, 90.3s
+
+  Sampling completed in 90s
+
+================================================================================
+  EXTRAPOLATED TOKEN COUNTS
+================================================================================
+
+  Wikipedia:
+    Sampled files:      10
+    Sample tokens:      4,075,121,254
+    Sample bytes:       11,339,824,306
+    Tokens/byte ratio:  0.3594
+    Total disk bytes:   12,153,445,493 (11.3 GB)
+    *** Estimated tokens: 4.37B ***
+
+  DCLM:
+    Sampled files:      10
+    Sample tokens:      767,201,268
+    Sample bytes:       1,477,475,805
+    Tokens/byte ratio:  0.5193
+    Total disk bytes:   721,861,144,647 (672.3 GB)
+    *** Estimated tokens: 374.84B ***
+
+  FineWeb-Edu:
+    Sampled files:      10
+    Sample tokens:      6,948,159,793
+    Sample bytes:       19,656,626,889
+    Tokens/byte ratio:  0.3535
+    Total disk bytes:   4,520,432,832,430 (4210.0 GB)
+    *** Estimated tokens: 1597.87B ***
+
+================================================================================
+  ENGLISH BUDGET CALCULATION
+================================================================================
+
+  Wikipedia (take all):       ~4.4B
+  DCLM (take all):           ~374.8B
+  FineWeb-Edu (available):   ~1597.9B
+  ─────────────────────────────────
+  Total available:           ~1977.1B
+  Target:                     300B
+
+  ✅ Wikipedia + DCLM alone exceed 300B! FineWeb-Edu quota = 0
+     (surplus: 79.2B)
+
+  Estimated shard counts (100M tokens each):
+    Wikipedia:   43 shards
+    DCLM:        3,748 shards
+    FineWeb-Edu: 0 shards
+    Total:       3,792 shards
+
+================================================================================
+  Done.
+================================================================================

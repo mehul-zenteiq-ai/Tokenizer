@@ -1,0 +1,215 @@
+===== GLOBAL SHARDS =====
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_01_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_02_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_03_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_04_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_05_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_06_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_07_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_08_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_09_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_10_of_10/
+
+===== LOCAL SHARDS =====
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_01_of_10/local-shard_0_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_01_of_10/local-shard_1_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_01_of_10/local-shard_2_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_01_of_10/local-shard_3_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_01_of_10/local-shard_4_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_01_of_10/local-shard_5_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_01_of_10/local-shard_6_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_01_of_10/local-shard_7_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_01_of_10/local-shard_8_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_01_of_10/local-shard_9_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_02_of_10/local-shard_0_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_02_of_10/local-shard_1_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_02_of_10/local-shard_2_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_02_of_10/local-shard_3_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_02_of_10/local-shard_4_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_02_of_10/local-shard_5_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_02_of_10/local-shard_6_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_02_of_10/local-shard_7_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_02_of_10/local-shard_8_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_02_of_10/local-shard_9_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_03_of_10/local-shard_0_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_03_of_10/local-shard_1_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_03_of_10/local-shard_2_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_03_of_10/local-shard_3_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_03_of_10/local-shard_4_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_03_of_10/local-shard_5_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_03_of_10/local-shard_6_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_03_of_10/local-shard_7_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_03_of_10/local-shard_8_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_03_of_10/local-shard_9_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_04_of_10/local-shard_0_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_04_of_10/local-shard_1_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_04_of_10/local-shard_2_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_04_of_10/local-shard_3_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_04_of_10/local-shard_4_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_04_of_10/local-shard_5_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_04_of_10/local-shard_6_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_04_of_10/local-shard_7_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_04_of_10/local-shard_8_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_04_of_10/local-shard_9_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_05_of_10/local-shard_0_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_05_of_10/local-shard_1_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_05_of_10/local-shard_2_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_05_of_10/local-shard_3_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_05_of_10/local-shard_4_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_05_of_10/local-shard_5_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_05_of_10/local-shard_6_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_05_of_10/local-shard_7_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_05_of_10/local-shard_8_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_05_of_10/local-shard_9_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_06_of_10/local-shard_0_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_06_of_10/local-shard_1_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_06_of_10/local-shard_2_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_06_of_10/local-shard_3_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_06_of_10/local-shard_4_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_06_of_10/local-shard_5_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_06_of_10/local-shard_6_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_06_of_10/local-shard_7_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_06_of_10/local-shard_8_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_06_of_10/local-shard_9_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_07_of_10/local-shard_0_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_07_of_10/local-shard_1_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_07_of_10/local-shard_2_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_07_of_10/local-shard_3_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_07_of_10/local-shard_4_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_07_of_10/local-shard_5_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_07_of_10/local-shard_6_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_07_of_10/local-shard_7_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_07_of_10/local-shard_8_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_07_of_10/local-shard_9_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_08_of_10/local-shard_0_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_08_of_10/local-shard_1_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_08_of_10/local-shard_2_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_08_of_10/local-shard_3_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_08_of_10/local-shard_4_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_08_of_10/local-shard_5_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_08_of_10/local-shard_6_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_08_of_10/local-shard_7_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_08_of_10/local-shard_8_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_08_of_10/local-shard_9_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_09_of_10/local-shard_0_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_09_of_10/local-shard_1_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_09_of_10/local-shard_2_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_09_of_10/local-shard_3_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_09_of_10/local-shard_4_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_09_of_10/local-shard_5_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_09_of_10/local-shard_6_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_09_of_10/local-shard_7_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_09_of_10/local-shard_8_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_09_of_10/local-shard_9_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_10_of_10/local-shard_0_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_10_of_10/local-shard_1_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_10_of_10/local-shard_2_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_10_of_10/local-shard_3_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_10_of_10/local-shard_4_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_10_of_10/local-shard_5_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_10_of_10/local-shard_6_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_10_of_10/local-shard_7_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_10_of_10/local-shard_8_of_10/
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_10_of_10/local-shard_9_of_10/
+
+===== FILE COUNTS PER LOCAL SHARD =====
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_01_of_10/local-shard_0_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_01_of_10/local-shard_1_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_01_of_10/local-shard_2_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_01_of_10/local-shard_3_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_01_of_10/local-shard_4_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_01_of_10/local-shard_5_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_01_of_10/local-shard_6_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_01_of_10/local-shard_7_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_01_of_10/local-shard_8_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_01_of_10/local-shard_9_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_02_of_10/local-shard_0_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_02_of_10/local-shard_1_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_02_of_10/local-shard_2_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_02_of_10/local-shard_3_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_02_of_10/local-shard_4_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_02_of_10/local-shard_5_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_02_of_10/local-shard_6_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_02_of_10/local-shard_7_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_02_of_10/local-shard_8_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_02_of_10/local-shard_9_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_03_of_10/local-shard_0_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_03_of_10/local-shard_1_of_10/ : 179 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_03_of_10/local-shard_2_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_03_of_10/local-shard_3_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_03_of_10/local-shard_4_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_03_of_10/local-shard_5_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_03_of_10/local-shard_6_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_03_of_10/local-shard_7_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_03_of_10/local-shard_8_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_03_of_10/local-shard_9_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_04_of_10/local-shard_0_of_10/ : 280 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_04_of_10/local-shard_1_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_04_of_10/local-shard_2_of_10/ : 280 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_04_of_10/local-shard_3_of_10/ : 280 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_04_of_10/local-shard_4_of_10/ : 280 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_04_of_10/local-shard_5_of_10/ : 280 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_04_of_10/local-shard_6_of_10/ : 280 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_04_of_10/local-shard_7_of_10/ : 280 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_04_of_10/local-shard_8_of_10/ : 280 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_04_of_10/local-shard_9_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_05_of_10/local-shard_0_of_10/ : 280 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_05_of_10/local-shard_1_of_10/ : 280 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_05_of_10/local-shard_2_of_10/ : 280 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_05_of_10/local-shard_3_of_10/ : 280 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_05_of_10/local-shard_4_of_10/ : 280 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_05_of_10/local-shard_5_of_10/ : 280 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_05_of_10/local-shard_6_of_10/ : 280 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_05_of_10/local-shard_7_of_10/ : 280 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_05_of_10/local-shard_8_of_10/ : 280 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_05_of_10/local-shard_9_of_10/ : 280 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_06_of_10/local-shard_0_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_06_of_10/local-shard_1_of_10/ : 280 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_06_of_10/local-shard_2_of_10/ : 280 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_06_of_10/local-shard_3_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_06_of_10/local-shard_4_of_10/ : 280 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_06_of_10/local-shard_5_of_10/ : 280 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_06_of_10/local-shard_6_of_10/ : 280 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_06_of_10/local-shard_7_of_10/ : 280 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_06_of_10/local-shard_8_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_06_of_10/local-shard_9_of_10/ : 280 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_07_of_10/local-shard_0_of_10/ : 280 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_07_of_10/local-shard_1_of_10/ : 280 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_07_of_10/local-shard_2_of_10/ : 280 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_07_of_10/local-shard_3_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_07_of_10/local-shard_4_of_10/ : 280 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_07_of_10/local-shard_5_of_10/ : 280 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_07_of_10/local-shard_6_of_10/ : 280 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_07_of_10/local-shard_7_of_10/ : 280 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_07_of_10/local-shard_8_of_10/ : 280 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_07_of_10/local-shard_9_of_10/ : 280 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_08_of_10/local-shard_0_of_10/ : 280 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_08_of_10/local-shard_1_of_10/ : 280 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_08_of_10/local-shard_2_of_10/ : 280 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_08_of_10/local-shard_3_of_10/ : 280 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_08_of_10/local-shard_4_of_10/ : 280 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_08_of_10/local-shard_5_of_10/ : 280 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_08_of_10/local-shard_6_of_10/ : 280 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_08_of_10/local-shard_7_of_10/ : 280 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_08_of_10/local-shard_8_of_10/ : 280 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_08_of_10/local-shard_9_of_10/ : 280 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_09_of_10/local-shard_0_of_10/ : 278 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_09_of_10/local-shard_1_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_09_of_10/local-shard_2_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_09_of_10/local-shard_3_of_10/ : 278 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_09_of_10/local-shard_4_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_09_of_10/local-shard_5_of_10/ : 278 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_09_of_10/local-shard_6_of_10/ : 278 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_09_of_10/local-shard_7_of_10/ : 278 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_09_of_10/local-shard_8_of_10/ : 278 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_09_of_10/local-shard_9_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_10_of_10/local-shard_0_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_10_of_10/local-shard_1_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_10_of_10/local-shard_2_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_10_of_10/local-shard_3_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_10_of_10/local-shard_4_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_10_of_10/local-shard_5_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_10_of_10/local-shard_6_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_10_of_10/local-shard_7_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_10_of_10/local-shard_8_of_10/ : 279 files
+/home/sushmetha_zenteiq_com/raw_storage_mount/English/dclm_baseline_4T/global-shard_10_of_10/local-shard_9_of_10/ : 279 files

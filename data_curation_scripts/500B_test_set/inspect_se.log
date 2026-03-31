@@ -1,0 +1,120 @@
+Found 11 stackexchange files:
+
+  cs.stackexchange.com.jsonl.gz                            5.6 MB
+  cstheory.stackexchange.com.jsonl.gz                      5.3 MB
+  datascience.stackexchange.com.jsonl.gz                   2.5 MB
+  hsm.stackexchange.com.jsonl.gz                           1.9 MB
+  math.stackexchange.com.jsonl.gz                        112.3 MB
+  matheducators.stackexchange.com.jsonl.gz                 3.7 MB
+  mathematica.stackexchange.com.jsonl.gz                  25.0 MB
+  mathoverflow.net.jsonl.gz                               55.4 MB
+  physics.stackexchange.com.jsonl.gz                      34.5 MB
+  proofassistants.stackexchange.com.jsonl.gz               0.4 MB
+  tex.stackexchange.com.jsonl.gz                          56.5 MB
+
+================================================================================
+  DEEP INSPECTION — first record from first file
+================================================================================
+
+  ────────────────────────────────────────────────────────────────────────────────
+  File: cs.stackexchange.com.jsonl.gz
+  ────────────────────────────────────────────────────────────────────────────────
+
+  Top-level keys (4):
+    answers              → list (len=1, item type: dict)
+    file_path            → str  (len=40, preview: 'stackexchange/cs.stackexchange.com.jsonl')
+    question             → dict (keys: ['Body', 'ClosedDate', 'FavoriteCount', 'Id', 'LastEditorDisplayName', 'OwnerDisplayName', 'Score', 'Tags', 'Title', 'language_detection_score'])
+    subset               → str  (len=13, preview: 'StackExchange')
+
+  'question' is a DICT — sub-keys:
+    question.Body                 → str  (len=803, preview: 'Is there an algorithmic approach to identify that dates given in a paragraph correlate to particular')
+    question.ClosedDate           → NoneType  (value: None)
+    question.FavoriteCount        → NoneType  (value: None)
+    question.Id                   → str  (len=3, preview: '221')
+    question.LastEditorDisplayName → NoneType  (value: None)
+    question.OwnerDisplayName     → NoneType  (value: None)
+    question.Score                → str  (len=2, preview: '13')
+    question.Tags                 → str  (len=54, preview: '<algorithms><data-mining><natural-language-processing>')
+    question.Title                → str  (len=50, preview: 'Identifying events related to dates in a paragraph')
+    question.language_detection_score → float  (value: 0.9818033576011658)
+
+  'answers' is a list with 1 items
+  First answer keys:
+    answers[0].Body                 → str  (len=197, preview: 'In general, the problem of identifying dates and other temporal markers in text is called the proble')
+    answers[0].Id                   → str  (len=3, preview: '474')
+    answers[0].Score                → str  (len=1, preview: '4')
+    answers[0].is_accepted_answer   → bool  (value: 'True')
+    answers[0].language_detection_score → float  (value: '0.9282150268554688')
+
+  RECONSTRUCTED TEXT (best guess):
+  ============================================================
+  Is there an algorithmic approach to identify that dates given in a paragraph correlate to particular events (phrases) in the paragraph?
+Example, consider the following paragraph:
+
+In June 1970, the great leader took the oath. But it was only after May 1972, post the death of the Minister of State, that he took over the reins of the country. While he enjoyed popular support until Mid-1980, his influence began to fall thereafter.
+
+Is there an algorithm (deterministic or stochastic)# that can gener
+  ============================================================
+  Total reconstructed length: 1002 chars
+
+================================================================================
+  CONSISTENCY CHECK — first record from each file
+================================================================================
+
+  File                                                  Top keys    question type     answers type   n_answers
+  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  cs.stackexchange.com.jsonl.gz                                4  dict(Body,ClosedDate,FavoriteCount,Id,LastEditorDisplayName)  list(Body,Id,Score,is_accepted_answer,language_detection_score)           1
+  cstheory.stackexchange.com.jsonl.gz                          4  dict(Body,ClosedDate,FavoriteCount,Id,LastEditorDisplayName)  list(Body,Id,Score,is_accepted_answer,language_detection_score)           2
+  datascience.stackexchange.com.jsonl.gz                       4  dict(Body,ClosedDate,FavoriteCount,Id,LastEditorDisplayName)  list(Body,Id,Score,is_accepted_answer,language_detection_score)           3
+  hsm.stackexchange.com.jsonl.gz                               4  dict(Body,ClosedDate,FavoriteCount,Id,LastEditorDisplayName)  list(Body,Id,Score,is_accepted_answer,language_detection_score)           1
+  math.stackexchange.com.jsonl.gz                              4  dict(Body,ClosedDate,FavoriteCount,Id,LastEditorDisplayName)  list(Body,Id,Score,is_accepted_answer,language_detection_score)           2
+  matheducators.stackexchange.com.jsonl.gz                     4  dict(Body,ClosedDate,FavoriteCount,Id,LastEditorDisplayName)  list(Body,Id,Score,is_accepted_answer,language_detection_score)           7
+  mathematica.stackexchange.com.jsonl.gz                       4  dict(Body,ClosedDate,FavoriteCount,Id,LastEditorDisplayName)  list(Body,Id,Score,is_accepted_answer,language_detection_score)           5
+  mathoverflow.net.jsonl.gz                                    4  dict(Body,ClosedDate,FavoriteCount,Id,LastEditorDisplayName)  list(Body,Id,Score,is_accepted_answer,language_detection_score)           1
+  physics.stackexchange.com.jsonl.gz                           4  dict(Body,ClosedDate,FavoriteCount,Id,LastEditorDisplayName)  list(Body,Id,Score,is_accepted_answer,language_detection_score)           3
+  proofassistants.stackexchange.com.jsonl.gz                   4  dict(Body,ClosedDate,FavoriteCount,Id,LastEditorDisplayName)  list(Body,Id,Score,is_accepted_answer,language_detection_score)           7
+  tex.stackexchange.com.jsonl.gz                               4  dict(Body,ClosedDate,FavoriteCount,Id,LastEditorDisplayName)  list(Body,Id,Score,is_accepted_answer,language_detection_score)           3
+
+================================================================================
+  SPOT CHECK — 5th record from largest file
+================================================================================
+
+  ────────────────────────────────────────────────────────────────────────────────
+  File: math.stackexchange.com.jsonl.gz, record #5
+  ────────────────────────────────────────────────────────────────────────────────
+
+  Top-level keys (4):
+    answers              → list (len=1, item type: dict)
+    file_path            → str  (len=42, preview: 'stackexchange/math.stackexchange.com.jsonl')
+    question             → dict (keys: ['Body', 'ClosedDate', 'FavoriteCount', 'Id', 'LastEditorDisplayName', 'OwnerDisplayName', 'Score', 'Tags', 'Title', 'language_detection_score'])
+    subset               → str  (len=13, preview: 'StackExchange')
+
+  'question' is a DICT — sub-keys:
+    question.Body                 → str  (len=894, preview: "I am trying to self-read through Ian Stewart's Galois theory and am stuck at this paragraph. I quote")
+    question.ClosedDate           → NoneType  (value: None)
+    question.FavoriteCount        → NoneType  (value: None)
+    question.Id                   → str  (len=4, preview: '7618')
+    question.LastEditorDisplayName → str  (len=9, preview: 'anonymous')
+    question.OwnerDisplayName     → NoneType  (value: None)
+    question.Score                → str  (len=1, preview: '7')
+    question.Tags                 → str  (len=27, preview: '<group-theory><polynomials>')
+    question.Title                → str  (len=60, preview: 'Expressions unchanged by permuting the roots of a polynomial')
+    question.language_detection_score → float  (value: 0.922541081905365)
+
+  'answers' is a list with 1 items
+  First answer keys:
+    answers[0].Body                 → str  (len=213, preview: 'This is a straightforward consequence of the Fundamental Theorem on Symmetric Functions. Indeed, the')
+    answers[0].Id                   → str  (len=4, preview: '7620')
+    answers[0].Score                → str  (len=1, preview: '9')
+    answers[0].is_accepted_answer   → bool  (value: 'True')
+    answers[0].language_detection_score → float  (value: '0.8926622867584229')
+
+  RECONSTRUCTED TEXT (best guess):
+  ============================================================
+  I am trying to self-read through Ian Stewart's Galois theory and am stuck at this paragraph. I quote - "Lagrange observed that all methods for solving polynomial equations by radicals involve constructing rational functions of the roots that take a small number of values when the roots $\alpha_j$ are permuted. Prominent among these is the expression
+$$\delta = \prod_{j< k} (\alpha_j - \alpha_k)$$
+which takes just two values, $\pm \delta$, plus for even permutations and minus for the odd ones. Th
+  ============================================================
+  Total reconstructed length: 1109 chars
+
+Done.

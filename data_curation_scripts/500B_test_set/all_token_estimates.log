@@ -1,0 +1,695 @@
+========================================================================================================================
+  COMPREHENSIVE TOKEN ESTIMATION — ALL SOURCES
+  Base: /home/sushmetha_zenteiq_com/raw_storage_mount
+  Workers: 64, Samples/source: 5
+========================================================================================================================
+
+Registered 58 input sources.
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  PHASE 1: Discovering files and selecting samples...
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+        OK  English/wikipedia                              files=   11  disk=   11.3 GB  sampling 5 files
+        OK  English/dclm                                   files= 2790  disk=  672.3 GB  sampling 5 files
+        OK  English/fineweb_edu                            files= 2409  disk= 4210.0 GB  sampling 5 files
+        OK  Math/MathPile/arXiv                            files=    1  disk=    0.8 GB  sampling 1 files
+        OK  Math/MathPile/commoncrawl                      files=    2  disk=    0.8 GB  sampling 2 files
+        OK  Math/MathPile/textbooks                        files=    2  disk=    0.1 GB  sampling 2 files
+        OK  Math/MathPile/wikipedia                        files=    1  disk=    0.1 GB  sampling 1 files
+        OK  Math/MathPile/stackexchange                    files=   11  disk=    0.3 GB  sampling 5 files
+        OK  Math/finemath4+                                files=   64  disk=   17.1 GB  sampling 5 files
+        OK  Math/finemath3+                                files=  128  disk=   60.6 GB  sampling 5 files
+        OK  Code/Python/starcoderdata                      files=   59  disk=   21.6 GB  sampling 5 files
+        OK  Code/Python/BIGCODE                            files=   42  disk=   19.5 GB  sampling 5 files
+        OK  Code/Python/stack_edu                          files=   40  disk=   15.7 GB  sampling 5 files
+        OK  Code/Cpp/starcoderdata                         files=   48  disk=   15.3 GB  sampling 5 files
+        OK  Code/Cpp/BIGCODE                               files=   42  disk=   19.5 GB  sampling 5 files
+        OK  Code/Cpp/stack_edu                             files=   33  disk=   11.8 GB  sampling 5 files
+        OK  Code/JavaScript/starcoderdata                  files=   65  disk=   23.2 GB  sampling 5 files
+        OK  Code/JavaScript/BIGCODE                        files=   43  disk=   19.6 GB  sampling 5 files
+        OK  Code/JavaScript/stack_edu                      files=   27  disk=    9.6 GB  sampling 5 files
+  NO FILES  Code/Java/BIGCODE                              files=    0  disk=    0.0 GB  sampling 0 files
+        OK  Code/Java/stack_edu                            files=   41  disk=   14.5 GB  sampling 5 files
+        OK  Code/HTML/starcoderdata                        files=   29  disk=    9.4 GB  sampling 5 files
+        OK  Code/HTML/BIGCODE                              files=   42  disk=   19.5 GB  sampling 5 files
+        OK  Code/Fortran/starcoderdata                     files=    2  disk=    0.6 GB  sampling 2 files
+        OK  Code/Fortran/BIGCODE                           files=    8  disk=    3.7 GB  sampling 5 files
+        OK  Code/Rust/starcoderdata                        files=    9  disk=    2.7 GB  sampling 5 files
+  NO FILES  Code/Rust/BIGCODE                              files=    0  disk=    0.0 GB  sampling 0 files
+        OK  Code/C/BIGCODE                                 files=   42  disk=   19.5 GB  sampling 5 files
+        OK  Code/C/stack_edu                               files=   12  disk=    4.3 GB  sampling 5 files
+  NO FILES  Code/TypeScript/BIGCODE                        files=    0  disk=    0.0 GB  sampling 0 files
+        OK  Code/TypeScript/stack_edu                      files=    9  disk=    2.6 GB  sampling 5 files
+  NO FILES  Code/SQL/BIGCODE                               files=    0  disk=    0.0 GB  sampling 0 files
+        OK  Code/SQL/stack_edu                             files=    6  disk=    3.6 GB  sampling 5 files
+        OK  Code/Shell/BIGCODE                             files=   23  disk=   10.5 GB  sampling 5 files
+        OK  Code/Shell/stack_edu                           files=    9  disk=    2.6 GB  sampling 5 files
+        OK  Scientific/peS2o                               files=   11  disk=   21.3 GB  sampling 5 files
+        OK  Scientific/arxiv                               files=   16  disk=   13.5 GB  sampling 5 files
+        OK  Multilingual/Hindi/sangraha                    files=  113  disk=   39.8 GB  sampling 5 files
+        OK  Multilingual/Bengali/sangraha                  files=   36  disk=   12.7 GB  sampling 5 files
+        OK  Multilingual/Urdu/sangraha                     files=    8  disk=    3.5 GB  sampling 5 files
+        OK  Multilingual/Tamil/sangraha                    files=   18  disk=    5.6 GB  sampling 5 files
+        OK  Multilingual/Marathi/sangraha                  files=    7  disk=    2.3 GB  sampling 5 files
+        OK  Multilingual/Gujarati/sangraha                 files=    4  disk=    1.3 GB  sampling 4 files
+        OK  Multilingual/Malayalam/sangraha                files=    6  disk=    2.0 GB  sampling 5 files
+        OK  Multilingual/Kannada/sangraha                  files=    4  disk=    1.4 GB  sampling 4 files
+        OK  Multilingual/Punjabi/sangraha                  files=    2  disk=    0.4 GB  sampling 2 files
+        OK  Multilingual/Odia/sangraha                     files=    1  disk=    0.1 GB  sampling 1 files
+        OK  Multilingual/Russian/cc100                     files=    1  disk=   45.9 GB  sampling 1 files
+        OK  Multilingual/French/cc100                      files=    1  disk=   14.0 GB  sampling 1 files
+        OK  Multilingual/German/cc100                      files=    1  disk=   17.1 GB  sampling 1 files
+        OK  Multilingual/Mandarin/cc100                    files=    1  disk=   13.7 GB  sampling 1 files
+        OK  Multilingual/Japanese/cc100                    files=    1  disk=   14.8 GB  sampling 1 files
+        OK  Multilingual/Korean/cc100                      files=    1  disk=   13.1 GB  sampling 1 files
+        OK  Multilingual/Farsi/cc100                       files=    1  disk=   19.2 GB  sampling 1 files
+        OK  Multilingual/Nepali/cc100                      files=    1  disk=    0.4 GB  sampling 1 files
+        OK  Multilingual/Sinhala/cc100                     files=    1  disk=    0.4 GB  sampling 1 files
+        OK  Multilingual/Pashto/cc100                      files=    1  disk=    0.1 GB  sampling 1 files
+        OK  Multilingual/Burmese/cc100                     files=    1  disk=    0.0 GB  sampling 1 files
+
+  Total file-level tasks: 200
+  Launching 64 worker processes...
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  PHASE 2: Counting tokens (one task per file)...
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  [PID 16387] START  English/wikipedia  file 1/5  train-00000-of-00011.parquet  (2020 MB)
+  [PID 16388] START  English/wikipedia  file 2/5  train-00002-of-00011.parquet  (775 MB)
+  [PID 16389] START  English/wikipedia  file 3/5  train-00004-of-00011.parquet  (995 MB)
+  [PID 16390] START  English/wikipedia  file 4/5  train-00006-of-00011.parquet  (763 MB)
+  [PID 16391] START  English/wikipedia  file 5/5  train-00008-of-00011.parquet  (842 MB)
+  [PID 16392] START  English/dclm  file 1/5  shard_00000000_processed.jsonl.zst  (127 MB)
+  [PID 16393] START  English/dclm  file 2/5  shard_00000000_processed.jsonl.zst  (142 MB)
+  [PID 16395] START  English/dclm  file 4/5  shard_00000000_processed.jsonl.zst  (129 MB)
+  [PID 16394] START  English/dclm  file 3/5  shard_00000000_processed.jsonl.zst  (145 MB)
+  [PID 16396] START  English/dclm  file 5/5  shard_00000000_processed.jsonl.zst  (130 MB)
+  [PID 16397] START  English/fineweb_edu  file 1/5  train-00000-of-00014.parquet  (2260 MB)
+  [PID 16399] START  English/fineweb_edu  file 3/5  train-00013-of-00016.parquet  (2226 MB)
+  [PID 16398] START  English/fineweb_edu  file 2/5  train-00001-of-00016.parquet  (2259 MB)
+  [PID 16400] START  English/fineweb_edu  file 4/5  train-00002-of-00026.parquet  (2240 MB)
+  [PID 16401] START  English/fineweb_edu  file 5/5  000_00018.parquet  (819 MB)
+  [PID 16402] START  Math/MathPile/arXiv  file 1/1  math_arXiv_v0.2_chunk_4.jsonl.gz  (813 MB)
+  [PID 16403] START  Math/MathPile/commoncrawl  file 1/2  C4_math_docs_chunk_0.jsonl.gz  (5 MB)
+  [PID 16404] START  Math/MathPile/commoncrawl  file 2/2  CC_math_docs_chunk_0.jsonl.gz  (798 MB)
+  [PID 16405] START  Math/MathPile/textbooks  file 1/2  synthetic_textbooks_markdown.jsonl.gz  (37 MB)
+  [PID 16406] START  Math/MathPile/textbooks  file 2/2  textbooks_markdown.jsonl.gz  (111 MB)
+  [PID 16407] START  Math/MathPile/wikipedia  file 1/1  wikipedia_en_mathematics_nopic_2023-08_v0.2.jsonl.gz  (71 MB)
+  [PID 16408] START  Math/MathPile/stackexchange  file 1/5  cs.stackexchange.com.jsonl.gz  (6 MB)
+  [PID 16409] START  Math/MathPile/stackexchange  file 2/5  datascience.stackexchange.com.jsonl.gz  (3 MB)
+  [PID 16410] START  Math/MathPile/stackexchange  file 3/5  math.stackexchange.com.jsonl.gz  (112 MB)
+  [PID 16411] START  Math/MathPile/stackexchange  file 4/5  mathematica.stackexchange.com.jsonl.gz  (25 MB)
+  [PID 16412] START  Math/MathPile/stackexchange  file 5/5  physics.stackexchange.com.jsonl.gz  (35 MB)
+  [PID 16413] START  Math/finemath4+  file 1/5  train-00000-of-00064.parquet  (273 MB)
+  [PID 16414] START  Math/finemath4+  file 2/5  train-00012-of-00064.parquet  (274 MB)
+  [PID 16415] START  Math/finemath4+  file 3/5  train-00025-of-00064.parquet  (274 MB)
+  [PID 16416] START  Math/finemath4+  file 4/5  train-00038-of-00064.parquet  (274 MB)
+  [PID 16417] START  Math/finemath4+  file 5/5  train-00051-of-00064.parquet  (275 MB)
+  [PID 16418] START  Math/finemath3+  file 1/5  train-00000-of-00128.parquet  (484 MB)
+  [PID 16419] START  Math/finemath3+  file 2/5  train-00025-of-00128.parquet  (485 MB)
+  [PID 16409] ERROR  Math/MathPile/stackexchange  datascience.stackexchange.com.jsonl.gz  → sequence item 0: expected str instance, dict found
+  [PID 16408] ERROR  Math/MathPile/stackexchange  cs.stackexchange.com.jsonl.gz  → sequence item 0: expected str instance, dict found
+  [PID 16420] START  Math/finemath3+  file 3/5  train-00051-of-00128.parquet  (482 MB)
+  [PID 16421] START  Math/finemath3+  file 4/5  train-00076-of-00128.parquet  (480 MB)
+  [PID 16410] ERROR  Math/MathPile/stackexchange  math.stackexchange.com.jsonl.gz  → sequence item 0: expected str instance, dict found
+  [PID 16412] ERROR  Math/MathPile/stackexchange  physics.stackexchange.com.jsonl.gz  → sequence item 0: expected str instance, dict found
+  [PID 16422] START  Math/finemath3+  file 5/5  train-00102-of-00128.parquet  (483 MB)
+  [PID 16411] ERROR  Math/MathPile/stackexchange  mathematica.stackexchange.com.jsonl.gz  → sequence item 0: expected str instance, dict found
+  [PID 16423] START  Code/Python/starcoderdata  file 1/5  train-00000-of-00059.parquet  (381 MB)
+  [PID 16424] START  Code/Python/starcoderdata  file 2/5  train-00011-of-00059.parquet  (371 MB)
+  [PID 16425] START  Code/Python/starcoderdata  file 3/5  train-00023-of-00059.parquet  (373 MB)
+  [PID 16410] START  Code/Python/starcoderdata  file 5/5  train-00047-of-00059.parquet  (377 MB)
+  [PID 16426] START  Code/Python/starcoderdata  file 4/5  train-00035-of-00059.parquet  (370 MB)
+  [PID 16428] START  Code/Python/BIGCODE  file 1/5  data-00000-of-00042.arrow  (472 MB)
+  [PID 16429] START  Code/Python/BIGCODE  file 2/5  data-00008-of-00042.arrow  (471 MB)
+  [PID 16430] START  Code/Python/BIGCODE  file 3/5  data-00016-of-00042.arrow  (468 MB)
+  [PID 16431] START  Code/Python/BIGCODE  file 4/5  data-00025-of-00042.arrow  (473 MB)
+  [PID 16432] START  Code/Python/BIGCODE  file 5/5  data-00033-of-00042.arrow  (476 MB)
+  [PID 16433] START  Code/Python/stack_edu  file 1/5  train-00000.parquet  (401 MB)
+  [PID 16434] START  Code/Python/stack_edu  file 2/5  train-00008.parquet  (398 MB)
+  [PID 16435] START  Code/Python/stack_edu  file 3/5  train-00016.parquet  (398 MB)
+  [PID 16436] START  Code/Python/stack_edu  file 4/5  train-00024.parquet  (402 MB)
+  [PID 16437] START  Code/Python/stack_edu  file 5/5  train-00032.parquet  (403 MB)
+  [PID 16438] START  Code/Cpp/starcoderdata  file 1/5  train-00000-of-00048.parquet  (332 MB)
+  [PID 16439] START  Code/Cpp/starcoderdata  file 2/5  train-00009-of-00048.parquet  (323 MB)
+  [PID 16440] START  Code/Cpp/starcoderdata  file 3/5  train-00019-of-00048.parquet  (327 MB)
+  [PID 16441] START  Code/Cpp/starcoderdata  file 4/5  train-00028-of-00048.parquet  (325 MB)
+  [PID 16442] START  Code/Cpp/starcoderdata  file 5/5  train-00038-of-00048.parquet  (329 MB)
+  [PID 16443] START  Code/Cpp/BIGCODE  file 1/5  data-00000-of-00042.arrow  (472 MB)
+  [PID 16444] START  Code/Cpp/BIGCODE  file 2/5  data-00008-of-00042.arrow  (485 MB)
+  [PID 16445] START  Code/Cpp/BIGCODE  file 3/5  data-00016-of-00042.arrow  (481 MB)
+  [PID 16446] START  Code/Cpp/BIGCODE  file 4/5  data-00025-of-00042.arrow  (476 MB)
+  [PID 16448] START  Code/Cpp/stack_edu  file 1/5  train-00000.parquet  (374 MB)
+  [PID 16409] START  Code/Cpp/stack_edu  file 4/5  train-00019.parquet  (374 MB)
+  [PID 16447] START  Code/Cpp/BIGCODE  file 5/5  data-00033-of-00042.arrow  (463 MB)
+  [PID 16449] START  Code/Cpp/stack_edu  file 2/5  train-00006.parquet  (373 MB)
+  [PID 16408] START  Code/Cpp/stack_edu  file 5/5  train-00026.parquet  (372 MB)
+  [PID 16450] START  Code/Cpp/stack_edu  file 3/5  train-00013.parquet  (373 MB)
+  [PID 16412] START  Code/JavaScript/starcoderdata  file 2/5  train-00013-of-00065.parquet  (370 MB)
+  [PID 16427] START  Code/JavaScript/starcoderdata  file 1/5  train-00000-of-00065.parquet  (372 MB)
+  [PID 16411] START  Code/JavaScript/starcoderdata  file 3/5  train-00026-of-00065.parquet  (365 MB)
+  [PID 16403] DONE   Math/MathPile/commoncrawl  file 1/2  C4_math_docs_chunk_0.jsonl.gz  → 0.003B tokens  0.4s  7M tok/s
+  [PID 16403] START  Code/JavaScript/starcoderdata  file 4/5  train-00039-of-00065.parquet  (365 MB)
+  [PID 16445] DONE   Code/Cpp/BIGCODE  file 3/5  data-00016-of-00042.arrow  → 0.058B tokens  3.4s  17M tok/s
+  [PID 16445] START  Code/JavaScript/starcoderdata  file 5/5  train-00052-of-00065.parquet  (369 MB)
+  [PID 16430] DONE   Code/Python/BIGCODE  file 3/5  data-00016-of-00042.arrow  → 0.052B tokens  3.5s  15M tok/s
+  [PID 16430] START  Code/JavaScript/BIGCODE  file 1/5  data-00000-of-00043.arrow  (472 MB)
+  [PID 16428] DONE   Code/Python/BIGCODE  file 1/5  data-00000-of-00042.arrow  → 0.053B tokens  3.5s  15M tok/s
+  [PID 16428] START  Code/JavaScript/BIGCODE  file 2/5  data-00008-of-00043.arrow  (474 MB)
+  [PID 16447] DONE   Code/Cpp/BIGCODE  file 5/5  data-00033-of-00042.arrow  → 0.056B tokens  3.6s  16M tok/s
+
+  >>> Progress: 10/200 files done, 4s elapsed <<<
+
+  [PID 16447] START  Code/JavaScript/BIGCODE  file 3/5  data-00017-of-00043.arrow  (474 MB)
+  [PID 16444] DONE   Code/Cpp/BIGCODE  file 2/5  data-00008-of-00042.arrow  → 0.059B tokens  3.7s  16M tok/s
+  [PID 16444] START  Code/JavaScript/BIGCODE  file 4/5  data-00025-of-00043.arrow  (481 MB)
+  [PID 16432] DONE   Code/Python/BIGCODE  file 5/5  data-00033-of-00042.arrow  → 0.053B tokens  3.7s  14M tok/s
+  [PID 16443] DONE   Code/Cpp/BIGCODE  file 1/5  data-00000-of-00042.arrow  → 0.057B tokens  3.7s  15M tok/s
+  [PID 16432] START  Code/JavaScript/BIGCODE  file 5/5  data-00034-of-00043.arrow  (433 MB)
+  [PID 16443] START  Code/JavaScript/stack_edu  file 1/5  train-00000.parquet  (374 MB)
+  [PID 16429] DONE   Code/Python/BIGCODE  file 2/5  data-00008-of-00042.arrow  → 0.053B tokens  3.8s  14M tok/s
+  [PID 16429] START  Code/JavaScript/stack_edu  file 2/5  train-00005.parquet  (374 MB)
+  [PID 16431] DONE   Code/Python/BIGCODE  file 4/5  data-00025-of-00042.arrow  → 0.053B tokens  4.0s  13M tok/s
+  [PID 16431] START  Code/JavaScript/stack_edu  file 3/5  train-00010.parquet  (375 MB)
+  [PID 16446] DONE   Code/Cpp/BIGCODE  file 4/5  data-00025-of-00042.arrow  → 0.057B tokens  4.0s  14M tok/s
+  [PID 16446] START  Code/JavaScript/stack_edu  file 4/5  train-00016.parquet  (374 MB)
+  [PID 16405] DONE   Math/MathPile/textbooks  file 1/2  synthetic_textbooks_markdown.jsonl.gz  → 0.043B tokens  4.1s  10M tok/s
+  [PID 16405] START  Code/JavaScript/stack_edu  file 5/5  train-00021.parquet  (372 MB)
+  [PID 16407] DONE   Math/MathPile/wikipedia  file 1/1  wikipedia_en_mathematics_nopic_2023-08_v0.2.jsonl.gz  → 0.041B tokens  5.5s  7M tok/s
+  [PID 16407] START  Code/Java/stack_edu  file 1/5  train-00000.parquet  (363 MB)
+  [PID 16395] DONE   English/dclm  file 4/5  shard_00000000_processed.jsonl.zst  → 0.070B tokens  6.4s  11M tok/s
+  [PID 16395] START  Code/Java/stack_edu  file 2/5  train-00008.parquet  (363 MB)
+  [PID 16396] DONE   English/dclm  file 5/5  shard_00000000_processed.jsonl.zst  → 0.070B tokens  6.5s  11M tok/s
+
+  >>> Progress: 20/200 files done, 7s elapsed <<<
+
+  [PID 16396] START  Code/Java/stack_edu  file 3/5  train-00016.parquet  (361 MB)
+  [PID 16432] DONE   Code/JavaScript/BIGCODE  file 5/5  data-00034-of-00043.arrow  → 0.041B tokens  3.0s  14M tok/s
+  [PID 16432] START  Code/Java/stack_edu  file 4/5  train-00024.parquet  (363 MB)
+  [PID 16447] DONE   Code/JavaScript/BIGCODE  file 3/5  data-00017-of-00043.arrow  → 0.045B tokens  3.2s  14M tok/s
+  [PID 16447] START  Code/Java/stack_edu  file 5/5  train-00032.parquet  (362 MB)
+  [PID 16428] DONE   Code/JavaScript/BIGCODE  file 2/5  data-00008-of-00043.arrow  → 0.045B tokens  3.3s  14M tok/s
+  [PID 16428] START  Code/HTML/starcoderdata  file 1/5  train-00000-of-00029.parquet  (334 MB)
+  [PID 16430] DONE   Code/JavaScript/BIGCODE  file 1/5  data-00000-of-00043.arrow  → 0.044B tokens  3.4s  13M tok/s
+  [PID 16430] START  Code/HTML/starcoderdata  file 2/5  train-00005-of-00029.parquet  (329 MB)
+  [PID 16392] DONE   English/dclm  file 1/5  shard_00000000_processed.jsonl.zst  → 0.069B tokens  7.1s  10M tok/s
+  [PID 16392] START  Code/HTML/starcoderdata  file 3/5  train-00011-of-00029.parquet  (328 MB)
+  [PID 16394] DONE   English/dclm  file 3/5  shard_00000000_processed.jsonl.zst  → 0.079B tokens  7.2s  11M tok/s
+  [PID 16394] START  Code/HTML/starcoderdata  file 4/5  train-00017-of-00029.parquet  (330 MB)
+  [PID 16444] DONE   Code/JavaScript/BIGCODE  file 4/5  data-00025-of-00043.arrow  → 0.045B tokens  3.8s  12M tok/s
+  [PID 16444] START  Code/HTML/starcoderdata  file 5/5  train-00023-of-00029.parquet  (330 MB)
+  [PID 16393] DONE   English/dclm  file 2/5  shard_00000000_processed.jsonl.zst  → 0.078B tokens  7.7s  10M tok/s
+  [PID 16393] START  Code/HTML/BIGCODE  file 1/5  data-00000-of-00042.arrow  (469 MB)
+  [PID 16416] DONE   Math/finemath4+  file 4/5  train-00038-of-00064.parquet  → 0.123B tokens  9.1s  14M tok/s
+  [PID 16416] START  Code/HTML/BIGCODE  file 2/5  data-00008-of-00042.arrow  (471 MB)
+  [PID 16417] DONE   Math/finemath4+  file 5/5  train-00051-of-00064.parquet  → 0.124B tokens  9.1s  14M tok/s
+
+  >>> Progress: 30/200 files done, 9s elapsed <<<
+
+  [PID 16417] START  Code/HTML/BIGCODE  file 3/5  data-00016-of-00042.arrow  (473 MB)
+  [PID 16415] DONE   Math/finemath4+  file 3/5  train-00025-of-00064.parquet  → 0.124B tokens  9.4s  13M tok/s
+  [PID 16415] START  Code/HTML/BIGCODE  file 4/5  data-00025-of-00042.arrow  (470 MB)
+  [PID 16413] DONE   Math/finemath4+  file 1/5  train-00000-of-00064.parquet  → 0.123B tokens  9.4s  13M tok/s
+  [PID 16413] START  Code/HTML/BIGCODE  file 5/5  data-00033-of-00042.arrow  (486 MB)
+  [PID 16414] DONE   Math/finemath4+  file 2/5  train-00012-of-00064.parquet  → 0.123B tokens  9.5s  13M tok/s
+  [PID 16414] START  Code/Fortran/starcoderdata  file 1/2  train-00000-of-00002.parquet  (288 MB)
+  [PID 16393] DONE   Code/HTML/BIGCODE  file 1/5  data-00000-of-00042.arrow  → 0.035B tokens  2.7s  13M tok/s
+  [PID 16393] START  Code/Fortran/starcoderdata  file 2/2  train-00001-of-00002.parquet  (288 MB)
+  [PID 16440] DONE   Code/Cpp/starcoderdata  file 3/5  train-00019-of-00048.parquet  → 0.126B tokens  10.4s  12M tok/s
+  [PID 16440] START  Code/Fortran/BIGCODE  file 1/5  data-00000-of-00008.arrow  (475 MB)
+  [PID 16439] DONE   Code/Cpp/starcoderdata  file 2/5  train-00009-of-00048.parquet  → 0.125B tokens  10.4s  12M tok/s
+  [PID 16439] START  Code/Fortran/BIGCODE  file 2/5  data-00001-of-00008.arrow  (478 MB)
+  [PID 16438] DONE   Code/Cpp/starcoderdata  file 1/5  train-00000-of-00048.parquet  → 0.127B tokens  10.5s  12M tok/s
+  [PID 16438] START  Code/Fortran/BIGCODE  file 3/5  data-00003-of-00008.arrow  (468 MB)
+  [PID 16442] DONE   Code/Cpp/starcoderdata  file 5/5  train-00038-of-00048.parquet  → 0.127B tokens  10.6s  12M tok/s
+  [PID 16442] START  Code/Fortran/BIGCODE  file 4/5  data-00004-of-00008.arrow  (472 MB)
+  [PID 16426] DONE   Code/Python/starcoderdata  file 4/5  train-00035-of-00059.parquet  → 0.116B tokens  10.7s  11M tok/s
+  [PID 16426] START  Code/Fortran/BIGCODE  file 5/5  data-00006-of-00008.arrow  (475 MB)
+  [PID 16441] DONE   Code/Cpp/starcoderdata  file 4/5  train-00028-of-00048.parquet  → 0.125B tokens  10.7s  12M tok/s
+
+  >>> Progress: 40/200 files done, 11s elapsed <<<
+
+  [PID 16441] START  Code/Rust/starcoderdata  file 1/5  train-00000-of-00009.parquet  (307 MB)
+  [PID 16425] DONE   Code/Python/starcoderdata  file 3/5  train-00023-of-00059.parquet  → 0.117B tokens  10.8s  11M tok/s
+  [PID 16425] START  Code/Rust/starcoderdata  file 2/5  train-00001-of-00009.parquet  (304 MB)
+  [PID 16424] DONE   Code/Python/starcoderdata  file 2/5  train-00011-of-00059.parquet  → 0.116B tokens  10.9s  11M tok/s
+  [PID 16424] START  Code/Rust/starcoderdata  file 3/5  train-00003-of-00009.parquet  (308 MB)
+  [PID 16410] DONE   Code/Python/starcoderdata  file 5/5  train-00047-of-00059.parquet  → 0.119B tokens  10.9s  11M tok/s
+  [PID 16410] START  Code/Rust/starcoderdata  file 4/5  train-00005-of-00009.parquet  (307 MB)
+  [PID 16411] DONE   Code/JavaScript/starcoderdata  file 3/5  train-00026-of-00065.parquet  → 0.121B tokens  11.0s  11M tok/s
+  [PID 16411] START  Code/Rust/starcoderdata  file 5/5  train-00007-of-00009.parquet  (303 MB)
+  [PID 16423] DONE   Code/Python/starcoderdata  file 1/5  train-00000-of-00059.parquet  → 0.120B tokens  11.0s  11M tok/s
+  [PID 16423] START  Code/C/BIGCODE  file 1/5  data-00000-of-00042.arrow  (480 MB)
+  [PID 16406] DONE   Math/MathPile/textbooks  file 2/2  textbooks_markdown.jsonl.gz  → 0.089B tokens  11.2s  8M tok/s
+  [PID 16406] START  Code/C/BIGCODE  file 2/5  data-00008-of-00042.arrow  (475 MB)
+  [PID 16403] DONE   Code/JavaScript/starcoderdata  file 4/5  train-00039-of-00065.parquet  → 0.120B tokens  10.9s  11M tok/s
+  [PID 16403] START  Code/C/BIGCODE  file 3/5  data-00016-of-00042.arrow  (479 MB)
+  [PID 16412] DONE   Code/JavaScript/starcoderdata  file 2/5  train-00013-of-00065.parquet  → 0.123B tokens  11.4s  11M tok/s
+  [PID 16412] START  Code/C/BIGCODE  file 4/5  data-00025-of-00042.arrow  (472 MB)
+  [PID 16416] DONE   Code/HTML/BIGCODE  file 2/5  data-00008-of-00042.arrow  → 0.035B tokens  2.7s  13M tok/s
+  [PID 16416] START  Code/C/BIGCODE  file 5/5  data-00033-of-00042.arrow  (478 MB)
+  [PID 16427] DONE   Code/JavaScript/starcoderdata  file 1/5  train-00000-of-00065.parquet  → 0.125B tokens  11.9s  10M tok/s
+
+  >>> Progress: 50/200 files done, 12s elapsed <<<
+
+  [PID 16427] START  Code/C/stack_edu  file 1/5  train-00000.parquet  (378 MB)
+  [PID 16415] DONE   Code/HTML/BIGCODE  file 4/5  data-00025-of-00042.arrow  → 0.035B tokens  2.6s  13M tok/s
+  [PID 16415] START  Code/C/stack_edu  file 2/5  train-00002.parquet  (377 MB)
+  [PID 16417] DONE   Code/HTML/BIGCODE  file 3/5  data-00016-of-00042.arrow  → 0.036B tokens  3.1s  11M tok/s
+  [PID 16417] START  Code/C/stack_edu  file 3/5  train-00004.parquet  (378 MB)
+  [PID 16413] DONE   Code/HTML/BIGCODE  file 5/5  data-00033-of-00042.arrow  → 0.036B tokens  3.2s  11M tok/s
+  [PID 16413] START  Code/C/stack_edu  file 4/5  train-00007.parquet  (378 MB)
+  [PID 16438] DONE   Code/Fortran/BIGCODE  file 3/5  data-00003-of-00008.arrow  → 0.070B tokens  3.4s  21M tok/s
+  [PID 16438] START  Code/C/stack_edu  file 5/5  train-00009.parquet  (377 MB)
+  [PID 16439] DONE   Code/Fortran/BIGCODE  file 2/5  data-00001-of-00008.arrow  → 0.071B tokens  3.8s  19M tok/s
+  [PID 16439] START  Code/TypeScript/stack_edu  file 1/5  train-00000.parquet  (316 MB)
+  [PID 16426] DONE   Code/Fortran/BIGCODE  file 5/5  data-00006-of-00008.arrow  → 0.071B tokens  3.7s  19M tok/s
+  [PID 16426] START  Code/TypeScript/stack_edu  file 2/5  train-00001.parquet  (317 MB)
+  [PID 16445] DONE   Code/JavaScript/starcoderdata  file 5/5  train-00052-of-00065.parquet  → 0.122B tokens  11.2s  11M tok/s
+  [PID 16445] START  Code/TypeScript/stack_edu  file 3/5  train-00003.parquet  (317 MB)
+  [PID 16440] DONE   Code/Fortran/BIGCODE  file 1/5  data-00000-of-00008.arrow  → 0.070B tokens  4.2s  17M tok/s
+  [PID 16440] START  Code/TypeScript/stack_edu  file 4/5  train-00005.parquet  (316 MB)
+  [PID 16442] DONE   Code/Fortran/BIGCODE  file 4/5  data-00004-of-00008.arrow  → 0.070B tokens  4.2s  16M tok/s
+  [PID 16442] START  Code/TypeScript/stack_edu  file 5/5  train-00007.parquet  (317 MB)
+  [PID 16423] DONE   Code/C/BIGCODE  file 1/5  data-00000-of-00042.arrow  → 0.067B tokens  4.0s  17M tok/s
+  [PID 16423] START  Code/SQL/stack_edu  file 1/5  train-00000.parquet  (721 MB)
+
+  >>> Progress: 60/200 files done, 15s elapsed <<<
+
+  [PID 16416] DONE   Code/C/BIGCODE  file 5/5  data-00033-of-00042.arrow  → 0.066B tokens  3.4s  19M tok/s
+  [PID 16416] START  Code/SQL/stack_edu  file 2/5  train-00001.parquet  (728 MB)
+  [PID 16406] DONE   Code/C/BIGCODE  file 2/5  data-00008-of-00042.arrow  → 0.066B tokens  4.1s  16M tok/s
+  [PID 16406] START  Code/SQL/stack_edu  file 3/5  train-00002.parquet  (738 MB)
+  [PID 16403] DONE   Code/C/BIGCODE  file 3/5  data-00016-of-00042.arrow  → 0.068B tokens  4.0s  17M tok/s
+  [PID 16403] START  Code/SQL/stack_edu  file 4/5  train-00003.parquet  (736 MB)
+  [PID 16418] DONE   Math/finemath3+  file 1/5  train-00000-of-00128.parquet  → 0.208B tokens  15.5s  13M tok/s
+  [PID 16418] START  Code/SQL/stack_edu  file 5/5  train-00004.parquet  (744 MB)
+  [PID 16420] DONE   Math/finemath3+  file 3/5  train-00051-of-00128.parquet  → 0.207B tokens  15.5s  13M tok/s
+  [PID 16420] START  Code/Shell/BIGCODE  file 1/5  data-00000-of-00023.arrow  (470 MB)
+  [PID 16412] DONE   Code/C/BIGCODE  file 4/5  data-00025-of-00042.arrow  → 0.066B tokens  4.3s  16M tok/s
+  [PID 16412] START  Code/Shell/BIGCODE  file 2/5  data-00004-of-00023.arrow  (459 MB)
+  [PID 16421] DONE   Math/finemath3+  file 4/5  train-00076-of-00128.parquet  → 0.206B tokens  15.9s  13M tok/s
+  [PID 16421] START  Code/Shell/BIGCODE  file 3/5  data-00009-of-00023.arrow  (464 MB)
+  [PID 16422] DONE   Math/finemath3+  file 5/5  train-00102-of-00128.parquet  → 0.207B tokens  16.0s  13M tok/s
+  [PID 16422] START  Code/Shell/BIGCODE  file 4/5  data-00013-of-00023.arrow  (463 MB)
+  [PID 16436] DONE   Code/Python/stack_edu  file 4/5  train-00024.parquet  → 0.178B tokens  16.6s  11M tok/s
+  [PID 16436] START  Code/Shell/BIGCODE  file 5/5  data-00018-of-00023.arrow  (464 MB)
+  [PID 16419] DONE   Math/finemath3+  file 2/5  train-00025-of-00128.parquet  → 0.208B tokens  16.7s  12M tok/s
+
+  >>> Progress: 70/200 files done, 17s elapsed <<<
+
+  [PID 16419] START  Code/Shell/stack_edu  file 1/5  train-00000.parquet  (315 MB)
+  [PID 16437] DONE   Code/Python/stack_edu  file 5/5  train-00032.parquet  → 0.180B tokens  16.9s  11M tok/s
+  [PID 16437] START  Code/Shell/stack_edu  file 2/5  train-00001.parquet  (320 MB)
+  [PID 16434] DONE   Code/Python/stack_edu  file 2/5  train-00008.parquet  → 0.177B tokens  17.0s  10M tok/s
+  [PID 16434] START  Code/Shell/stack_edu  file 3/5  train-00003.parquet  (318 MB)
+  [PID 16430] DONE   Code/HTML/starcoderdata  file 2/5  train-00005-of-00029.parquet  → 0.110B tokens  10.1s  11M tok/s
+  [PID 16430] START  Code/Shell/stack_edu  file 4/5  train-00005.parquet  (317 MB)
+  [PID 16435] DONE   Code/Python/stack_edu  file 3/5  train-00016.parquet  → 0.178B tokens  17.2s  10M tok/s
+  [PID 16435] START  Code/Shell/stack_edu  file 5/5  train-00007.parquet  (314 MB)
+  [PID 16408] DONE   Code/Cpp/stack_edu  file 5/5  train-00026.parquet  → 0.204B tokens  17.4s  12M tok/s
+  [PID 16408] START  Scientific/peS2o  file 1/5  train-00000-of-00020.json.gz  (1502 MB)
+  [PID 16428] DONE   Code/HTML/starcoderdata  file 1/5  train-00000-of-00029.parquet  → 0.113B tokens  10.9s  10M tok/s
+  [PID 16428] START  Scientific/peS2o  file 2/5  train-00002-of-00020.json.gz  (1503 MB)
+  [PID 16409] DONE   Code/Cpp/stack_edu  file 4/5  train-00019.parquet  → 0.205B tokens  17.8s  12M tok/s
+  [PID 16409] START  Scientific/peS2o  file 3/5  train-00004-of-00020.json.gz  (1503 MB)
+  [PID 16392] DONE   Code/HTML/starcoderdata  file 3/5  train-00011-of-00029.parquet  → 0.110B tokens  10.8s  10M tok/s
+  [PID 16392] START  Scientific/peS2o  file 4/5  train-00006-of-00020.json.gz  (1501 MB)
+  [PID 16444] DONE   Code/HTML/starcoderdata  file 5/5  train-00023-of-00029.parquet  → 0.110B tokens  10.4s  11M tok/s
+  [PID 16444] START  Scientific/peS2o  file 5/5  train-00008-of-00020.json.gz  (1503 MB)
+  [PID 16394] DONE   Code/HTML/starcoderdata  file 4/5  train-00017-of-00029.parquet  → 0.112B tokens  10.8s  10M tok/s
+
+  >>> Progress: 80/200 files done, 18s elapsed <<<
+
+  [PID 16394] START  Scientific/arxiv  file 1/5  0000.jsonl.zst  (885 MB)
+  [PID 16449] DONE   Code/Cpp/stack_edu  file 2/5  train-00006.parquet  → 0.205B tokens  18.0s  11M tok/s
+  [PID 16449] START  Scientific/arxiv  file 2/5  0003.jsonl.zst  (900 MB)
+  [PID 16433] DONE   Code/Python/stack_edu  file 1/5  train-00000.parquet  → 0.178B tokens  18.3s  10M tok/s
+  [PID 16433] START  Scientific/arxiv  file 3/5  0006.jsonl.zst  (882 MB)
+  [PID 16450] DONE   Code/Cpp/stack_edu  file 3/5  train-00013.parquet  → 0.204B tokens  18.6s  11M tok/s
+  [PID 16450] START  Scientific/arxiv  file 4/5  0009.jsonl.zst  (887 MB)
+  [PID 16414] DONE   Code/Fortran/starcoderdata  file 1/2  train-00000-of-00002.parquet  → 0.123B tokens  9.4s  13M tok/s
+  [PID 16414] START  Scientific/arxiv  file 5/5  0012.jsonl.zst  (879 MB)
+  [PID 16448] DONE   Code/Cpp/stack_edu  file 1/5  train-00000.parquet  → 0.204B tokens  19.1s  11M tok/s
+  [PID 16448] START  Multilingual/Hindi/sangraha  file 1/5  data-0.parquet  (361 MB)
+  [PID 16393] DONE   Code/Fortran/starcoderdata  file 2/2  train-00001-of-00002.parquet  → 0.124B tokens  9.4s  13M tok/s
+  [PID 16393] START  Multilingual/Hindi/sangraha  file 2/5  data-17.parquet  (362 MB)
+  [PID 16420] DONE   Code/Shell/BIGCODE  file 1/5  data-00000-of-00023.arrow  → 0.056B tokens  4.5s  13M tok/s
+  [PID 16420] START  Multilingual/Hindi/sangraha  file 3/5  data-38.parquet  (361 MB)
+  [PID 16412] DONE   Code/Shell/BIGCODE  file 2/5  data-00004-of-00023.arrow  → 0.055B tokens  4.3s  13M tok/s
+  [PID 16412] START  Multilingual/Hindi/sangraha  file 4/5  data-58.parquet  (361 MB)
+  [PID 16421] DONE   Code/Shell/BIGCODE  file 3/5  data-00009-of-00023.arrow  → 0.056B tokens  4.2s  13M tok/s
+  [PID 16421] START  Multilingual/Hindi/sangraha  file 5/5  data-79.parquet  (362 MB)
+  [PID 16422] DONE   Code/Shell/BIGCODE  file 4/5  data-00013-of-00023.arrow  → 0.055B tokens  4.6s  12M tok/s
+
+  >>> Progress: 90/200 files done, 21s elapsed <<<
+
+  [PID 16422] START  Multilingual/Bengali/sangraha  file 1/5  data-0.parquet  (362 MB)
+  [PID 16446] DONE   Code/JavaScript/stack_edu  file 4/5  train-00016.parquet  → 0.177B tokens  16.6s  11M tok/s
+  [PID 16446] START  Multilingual/Bengali/sangraha  file 2/5  data-15.parquet  (360 MB)
+  [PID 16436] DONE   Code/Shell/BIGCODE  file 5/5  data-00018-of-00023.arrow  → 0.055B tokens  4.2s  13M tok/s
+  [PID 16436] START  Multilingual/Bengali/sangraha  file 3/5  data-21.parquet  (362 MB)
+  [PID 16405] DONE   Code/JavaScript/stack_edu  file 5/5  train-00021.parquet  → 0.176B tokens  16.7s  11M tok/s
+  [PID 16405] START  Multilingual/Bengali/sangraha  file 4/5  data-28.parquet  (361 MB)
+  [PID 16429] DONE   Code/JavaScript/stack_edu  file 2/5  train-00005.parquet  → 0.177B tokens  17.1s  10M tok/s
+  [PID 16429] START  Multilingual/Bengali/sangraha  file 5/5  data-34.parquet  (363 MB)
+  [PID 16431] DONE   Code/JavaScript/stack_edu  file 3/5  train-00010.parquet  → 0.177B tokens  17.0s  10M tok/s
+  [PID 16431] START  Multilingual/Urdu/sangraha  file 1/5  data-0.parquet  (460 MB)
+  [PID 16425] DONE   Code/Rust/starcoderdata  file 2/5  train-00001-of-00009.parquet  → 0.125B tokens  10.2s  12M tok/s
+  [PID 16425] START  Multilingual/Urdu/sangraha  file 2/5  data-1.parquet  (426 MB)
+  [PID 16441] DONE   Code/Rust/starcoderdata  file 1/5  train-00000-of-00009.parquet  → 0.126B tokens  10.5s  12M tok/s
+  [PID 16441] START  Multilingual/Urdu/sangraha  file 3/5  data-3.parquet  (461 MB)
+  [PID 16443] DONE   Code/JavaScript/stack_edu  file 1/5  train-00000.parquet  → 0.177B tokens  17.6s  10M tok/s
+  [PID 16443] START  Multilingual/Urdu/sangraha  file 4/5  data-4.parquet  (462 MB)
+  [PID 16424] DONE   Code/Rust/starcoderdata  file 3/5  train-00003-of-00009.parquet  → 0.126B tokens  10.5s  12M tok/s
+  [PID 16424] START  Multilingual/Urdu/sangraha  file 5/5  data-6.parquet  (459 MB)
+  [PID 16410] DONE   Code/Rust/starcoderdata  file 4/5  train-00005-of-00009.parquet  → 0.126B tokens  10.5s  12M tok/s
+
+  >>> Progress: 100/200 files done, 22s elapsed <<<
+
+  [PID 16410] START  Multilingual/Tamil/sangraha  file 1/5  data-0.parquet  (318 MB)
+  [PID 16411] DONE   Code/Rust/starcoderdata  file 5/5  train-00007-of-00009.parquet  → 0.125B tokens  10.7s  12M tok/s
+  [PID 16411] START  Multilingual/Tamil/sangraha  file 2/5  data-11.parquet  (320 MB)
+  [PID 16407] DONE   Code/Java/stack_edu  file 1/5  train-00000.parquet  → 0.170B tokens  17.0s  10M tok/s
+  [PID 16407] START  Multilingual/Tamil/sangraha  file 3/5  data-15.parquet  (323 MB)
+  [PID 16395] DONE   Code/Java/stack_edu  file 2/5  train-00008.parquet  → 0.168B tokens  16.6s  10M tok/s
+  [PID 16395] START  Multilingual/Tamil/sangraha  file 4/5  data-2.parquet  (318 MB)
+  [PID 16396] DONE   Code/Java/stack_edu  file 3/5  train-00016.parquet  → 0.167B tokens  16.7s  10M tok/s
+  [PID 16396] START  Multilingual/Tamil/sangraha  file 5/5  data-6.parquet  (322 MB)
+  [PID 16432] DONE   Code/Java/stack_edu  file 4/5  train-00024.parquet  → 0.169B tokens  16.8s  10M tok/s
+  [PID 16432] START  Multilingual/Marathi/sangraha  file 1/5  data-0.parquet  (340 MB)
+  [PID 16447] DONE   Code/Java/stack_edu  file 5/5  train-00032.parquet  → 0.167B tokens  16.7s  10M tok/s
+  [PID 16447] START  Multilingual/Marathi/sangraha  file 2/5  data-1.parquet  (341 MB)
+  [PID 16388] DONE   English/wikipedia  file 2/5  train-00002-of-00011.parquet  → 0.290B tokens  24.3s  12M tok/s
+  [PID 16388] START  Multilingual/Marathi/sangraha  file 3/5  data-2.parquet  (343 MB)
+  [PID 16390] DONE   English/wikipedia  file 4/5  train-00006-of-00011.parquet  → 0.284B tokens  24.4s  12M tok/s
+  [PID 16390] START  Multilingual/Marathi/sangraha  file 4/5  data-4.parquet  (342 MB)
+  [PID 16401] DONE   English/fineweb_edu  file 5/5  000_00018.parquet  → 0.309B tokens  25.0s  12M tok/s
+  [PID 16401] START  Multilingual/Marathi/sangraha  file 5/5  data-5.parquet  (341 MB)
+  [PID 16391] DONE   English/wikipedia  file 5/5  train-00008-of-00011.parquet  → 0.314B tokens  26.6s  12M tok/s
+
+  >>> Progress: 110/200 files done, 27s elapsed <<<
+
+  [PID 16391] START  Multilingual/Gujarati/sangraha  file 1/4  data-0.parquet  (342 MB)
+  [PID 16437] DONE   Code/Shell/stack_edu  file 2/5  train-00001.parquet  → 0.147B tokens  12.1s  12M tok/s
+  [PID 16437] START  Multilingual/Gujarati/sangraha  file 2/4  data-1.parquet  (342 MB)
+  [PID 16419] DONE   Code/Shell/stack_edu  file 1/5  train-00000.parquet  → 0.148B tokens  12.4s  12M tok/s
+  [PID 16419] START  Multilingual/Gujarati/sangraha  file 3/4  data-2.parquet  (341 MB)
+  [PID 16442] DONE   Code/TypeScript/stack_edu  file 5/5  train-00007.parquet  → 0.168B tokens  14.4s  12M tok/s
+  [PID 16426] DONE   Code/TypeScript/stack_edu  file 2/5  train-00001.parquet  → 0.168B tokens  14.8s  11M tok/s
+  [PID 16442] START  Multilingual/Gujarati/sangraha  file 4/4  data-3.parquet  (342 MB)
+  [PID 16426] START  Multilingual/Malayalam/sangraha  file 1/5  data-0.parquet  (339 MB)
+  [PID 16439] DONE   Code/TypeScript/stack_edu  file 1/5  train-00000.parquet  → 0.166B tokens  15.0s  11M tok/s
+  [PID 16439] START  Multilingual/Malayalam/sangraha  file 2/5  data-1.parquet  (338 MB)
+  [PID 16434] DONE   Code/Shell/stack_edu  file 3/5  train-00003.parquet  → 0.147B tokens  12.4s  12M tok/s
+  [PID 16434] START  Multilingual/Malayalam/sangraha  file 3/5  data-2.parquet  (338 MB)
+  [PID 16435] DONE   Code/Shell/stack_edu  file 5/5  train-00007.parquet  → 0.146B tokens  12.2s  12M tok/s
+  [PID 16435] START  Multilingual/Malayalam/sangraha  file 4/5  data-3.parquet  (339 MB)
+  [PID 16430] DONE   Code/Shell/stack_edu  file 4/5  train-00005.parquet  → 0.148B tokens  12.4s  12M tok/s
+  [PID 16430] START  Multilingual/Malayalam/sangraha  file 5/5  data-4.parquet  (339 MB)
+  [PID 16445] DONE   Code/TypeScript/stack_edu  file 3/5  train-00003.parquet  → 0.168B tokens  15.0s  11M tok/s
+  [PID 16445] START  Multilingual/Kannada/sangraha  file 1/4  data-0.parquet  (349 MB)
+  [PID 16427] DONE   Code/C/stack_edu  file 1/5  train-00000.parquet  → 0.211B tokens  17.7s  12M tok/s
+
+  >>> Progress: 120/200 files done, 30s elapsed <<<
+
+  [PID 16427] START  Multilingual/Kannada/sangraha  file 2/4  data-1.parquet  (349 MB)
+  [PID 16415] DONE   Code/C/stack_edu  file 2/5  train-00002.parquet  → 0.212B tokens  17.7s  12M tok/s
+  [PID 16415] START  Multilingual/Kannada/sangraha  file 3/4  data-2.parquet  (350 MB)
+  [PID 16440] DONE   Code/TypeScript/stack_edu  file 4/5  train-00005.parquet  → 0.167B tokens  15.1s  11M tok/s
+  [PID 16440] START  Multilingual/Kannada/sangraha  file 4/4  data-3.parquet  (350 MB)
+  [PID 16410] DONE   Multilingual/Tamil/sangraha  file 1/5  data-0.parquet  → 0.051B tokens  8.9s  6M tok/s
+  [PID 16410] START  Multilingual/Punjabi/sangraha  file 1/2  data-0.parquet  (218 MB)
+  [PID 16411] DONE   Multilingual/Tamil/sangraha  file 2/5  data-11.parquet  → 0.052B tokens  8.7s  6M tok/s
+  [PID 16411] START  Multilingual/Punjabi/sangraha  file 2/2  data-1.parquet  (217 MB)
+  [PID 16417] DONE   Code/C/stack_edu  file 3/5  train-00004.parquet  → 0.212B tokens  18.1s  12M tok/s
+  [PID 16417] START  Multilingual/Odia/sangraha  file 1/1  data-0.parquet  (77 MB)
+  [PID 16413] DONE   Code/C/stack_edu  file 4/5  train-00007.parquet  → 0.213B tokens  18.0s  12M tok/s
+  [PID 16413] START  Multilingual/Russian/cc100  file 1/1  ru.txt.xz  (46991 MB)
+  [PID 16389] DONE   English/wikipedia  file 3/5  train-00004-of-00011.parquet  → 0.373B tokens  30.7s  12M tok/s
+  [PID 16389] START  Multilingual/French/cc100  file 1/1  fr.txt.xz  (14314 MB)
+  [PID 16446] DONE   Multilingual/Bengali/sangraha  file 2/5  data-15.parquet  → 0.075B tokens  10.5s  7M tok/s
+  [PID 16446] START  Multilingual/German/cc100  file 1/1  de.txt.xz  (17489 MB)
+  [PID 16438] DONE   Code/C/stack_edu  file 5/5  train-00009.parquet  → 0.211B tokens  17.7s  12M tok/s
+  [PID 16438] START  Multilingual/Mandarin/cc100  file 1/1  zh-Hans.txt.xz  (13979 MB)
+  [PID 16436] DONE   Multilingual/Bengali/sangraha  file 3/5  data-21.parquet  → 0.075B tokens  10.8s  7M tok/s
+
+  >>> Progress: 130/200 files done, 32s elapsed <<<
+
+  [PID 16436] START  Multilingual/Japanese/cc100  file 1/1  ja.txt.xz  (15179 MB)
+  [PID 16407] DONE   Multilingual/Tamil/sangraha  file 3/5  data-15.parquet  → 0.052B tokens  9.2s  6M tok/s
+  [PID 16407] START  Multilingual/Korean/cc100  file 1/1  ko.txt.xz  (13409 MB)
+  [PID 16448] DONE   Multilingual/Hindi/sangraha  file 1/5  data-0.parquet  → 0.103B tokens  12.7s  8M tok/s
+  [PID 16448] START  Multilingual/Farsi/cc100  file 1/1  fa.txt.xz  (19681 MB)
+  [PID 16393] DONE   Multilingual/Hindi/sangraha  file 2/5  data-17.parquet  → 0.103B tokens  12.0s  9M tok/s
+  [PID 16393] START  Multilingual/Nepali/cc100  file 1/1  ne.txt.xz  (393 MB)
+  [PID 16429] DONE   Multilingual/Bengali/sangraha  file 5/5  data-34.parquet  → 0.075B tokens  10.9s  7M tok/s
+  [PID 16429] START  Multilingual/Sinhala/cc100  file 1/1  si.txt.xz  (452 MB)
+  [PID 16405] DONE   Multilingual/Bengali/sangraha  file 4/5  data-28.parquet  → 0.075B tokens  11.0s  7M tok/s
+  [PID 16405] START  Multilingual/Pashto/cc100  file 1/1  ps.txt.xz  (106 MB)
+  [PID 16422] DONE   Multilingual/Bengali/sangraha  file 1/5  data-0.parquet  → 0.075B tokens  11.3s  7M tok/s
+  [PID 16422] START  Multilingual/Burmese/cc100  file 1/1  my.txt.xz  (46 MB)
+  [PID 16412] DONE   Multilingual/Hindi/sangraha  file 4/5  data-58.parquet  → 0.103B tokens  11.9s  9M tok/s
+  [PID 16395] DONE   Multilingual/Tamil/sangraha  file 4/5  data-2.parquet  → 0.051B tokens  9.1s  6M tok/s
+  [PID 16396] DONE   Multilingual/Tamil/sangraha  file 5/5  data-6.parquet  → 0.052B tokens  9.0s  6M tok/s
+  [PID 16417] DONE   Multilingual/Odia/sangraha  file 1/1  data-0.parquet  → 0.016B tokens  2.1s  8M tok/s
+
+  >>> Progress: 140/200 files done, 33s elapsed <<<
+
+  [PID 16421] DONE   Multilingual/Hindi/sangraha  file 5/5  data-79.parquet  → 0.103B tokens  12.5s  8M tok/s
+  [PID 16420] DONE   Multilingual/Hindi/sangraha  file 3/5  data-38.parquet  → 0.103B tokens  12.6s  8M tok/s
+  [PID 16447] DONE   Multilingual/Marathi/sangraha  file 2/5  data-1.parquet  → 0.068B tokens  9.5s  7M tok/s
+  [PID 16432] DONE   Multilingual/Marathi/sangraha  file 1/5  data-0.parquet  → 0.068B tokens  10.0s  7M tok/s
+  [PID 16388] DONE   Multilingual/Marathi/sangraha  file 3/5  data-2.parquet  → 0.068B tokens  10.1s  7M tok/s
+  [PID 16401] DONE   Multilingual/Marathi/sangraha  file 5/5  data-5.parquet  → 0.068B tokens  10.1s  7M tok/s
+  [PID 16390] DONE   Multilingual/Marathi/sangraha  file 4/5  data-4.parquet  → 0.068B tokens  11.3s  6M tok/s
+  [PID 16425] DONE   Multilingual/Urdu/sangraha  file 2/5  data-1.parquet  → 0.156B tokens  14.7s  11M tok/s
+  [PID 16410] DONE   Multilingual/Punjabi/sangraha  file 1/2  data-0.parquet  → 0.061B tokens  6.5s  9M tok/s
+  [PID 16391] DONE   Multilingual/Gujarati/sangraha  file 1/4  data-0.parquet  → 0.080B tokens  10.2s  8M tok/s
+
+  >>> Progress: 150/200 files done, 37s elapsed <<<
+
+  [PID 16411] DONE   Multilingual/Punjabi/sangraha  file 2/2  data-1.parquet  → 0.060B tokens  6.5s  9M tok/s
+  [PID 16422] DONE   Multilingual/Burmese/cc100  file 1/1  my.txt.xz  → 0.019B tokens  5.0s  4M tok/s
+  [PID 16431] DONE   Multilingual/Urdu/sangraha  file 1/5  data-0.parquet  → 0.169B tokens  16.5s  10M tok/s
+  [PID 16426] DONE   Multilingual/Malayalam/sangraha  file 1/5  data-0.parquet  → 0.046B tokens  8.3s  6M tok/s
+  [PID 16441] DONE   Multilingual/Urdu/sangraha  file 3/5  data-3.parquet  → 0.169B tokens  16.3s  10M tok/s
+  [PID 16435] DONE   Multilingual/Malayalam/sangraha  file 4/5  data-3.parquet  → 0.046B tokens  8.4s  6M tok/s
+  [PID 16439] DONE   Multilingual/Malayalam/sangraha  file 2/5  data-1.parquet  → 0.046B tokens  8.7s  5M tok/s
+  [PID 16434] DONE   Multilingual/Malayalam/sangraha  file 3/5  data-2.parquet  → 0.046B tokens  8.5s  5M tok/s
+  [PID 16430] DONE   Multilingual/Malayalam/sangraha  file 5/5  data-4.parquet  → 0.046B tokens  8.6s  5M tok/s
+  [PID 16424] DONE   Multilingual/Urdu/sangraha  file 5/5  data-6.parquet  → 0.169B tokens  16.8s  10M tok/s
+
+  >>> Progress: 160/200 files done, 38s elapsed <<<
+
+  [PID 16443] DONE   Multilingual/Urdu/sangraha  file 4/5  data-4.parquet  → 0.170B tokens  16.9s  10M tok/s
+  [PID 16445] DONE   Multilingual/Kannada/sangraha  file 1/4  data-0.parquet  → 0.057B tokens  8.9s  6M tok/s
+  [PID 16415] DONE   Multilingual/Kannada/sangraha  file 3/4  data-2.parquet  → 0.058B tokens  8.9s  6M tok/s
+  [PID 16440] DONE   Multilingual/Kannada/sangraha  file 4/4  data-3.parquet  → 0.058B tokens  9.0s  6M tok/s
+  [PID 16427] DONE   Multilingual/Kannada/sangraha  file 2/4  data-1.parquet  → 0.057B tokens  9.5s  6M tok/s
+  [PID 16419] DONE   Multilingual/Gujarati/sangraha  file 3/4  data-2.parquet  → 0.080B tokens  10.3s  8M tok/s
+  [PID 16437] DONE   Multilingual/Gujarati/sangraha  file 2/4  data-1.parquet  → 0.080B tokens  10.4s  8M tok/s
+  [PID 16442] DONE   Multilingual/Gujarati/sangraha  file 4/4  data-3.parquet  → 0.080B tokens  10.6s  8M tok/s
+  [PID 16405] DONE   Multilingual/Pashto/cc100  file 1/1  ps.txt.xz  → 0.128B tokens  12.0s  11M tok/s
+  [PID 16404] DONE   Math/MathPile/commoncrawl  file 2/2  CC_math_docs_chunk_0.jsonl.gz  → 0.501B tokens  50.5s  10M tok/s
+
+  >>> Progress: 170/200 files done, 51s elapsed <<<
+
+  [PID 16450] DONE   Scientific/arxiv  file 4/5  0009.jsonl.zst  → 0.533B tokens  33.2s  16M tok/s
+  [PID 16387] DONE   English/wikipedia  file 1/5  train-00000-of-00011.parquet  → 0.765B tokens  52.5s  15M tok/s
+  [PID 16416] DONE   Code/SQL/stack_edu  file 2/5  train-00001.parquet  → 0.566B tokens  37.7s  15M tok/s
+  [PID 16433] DONE   Scientific/arxiv  file 3/5  0006.jsonl.zst  → 0.531B tokens  34.9s  15M tok/s
+  [PID 16423] DONE   Code/SQL/stack_edu  file 1/5  train-00000.parquet  → 0.554B tokens  38.3s  14M tok/s
+  [PID 16403] DONE   Code/SQL/stack_edu  file 4/5  train-00003.parquet  → 0.563B tokens  38.0s  15M tok/s
+  [PID 16414] DONE   Scientific/arxiv  file 5/5  0012.jsonl.zst  → 0.530B tokens  34.8s  15M tok/s
+  [PID 16399] DONE   English/fineweb_edu  file 3/5  train-00013-of-00016.parquet  → 0.820B tokens  54.5s  15M tok/s
+  [PID 16418] DONE   Code/SQL/stack_edu  file 5/5  train-00004.parquet  → 0.562B tokens  39.2s  14M tok/s
+  [PID 16394] DONE   Scientific/arxiv  file 1/5  0000.jsonl.zst  → 0.537B tokens  36.9s  15M tok/s
+
+  >>> Progress: 180/200 files done, 55s elapsed <<<
+
+  [PID 16449] DONE   Scientific/arxiv  file 2/5  0003.jsonl.zst  → 0.542B tokens  37.0s  15M tok/s
+  [PID 16397] DONE   English/fineweb_edu  file 1/5  train-00000-of-00014.parquet  → 0.832B tokens  55.3s  15M tok/s
+  [PID 16400] DONE   English/fineweb_edu  file 4/5  train-00002-of-00026.parquet  → 0.835B tokens  55.6s  15M tok/s
+  [PID 16402] DONE   Math/MathPile/arXiv  file 1/1  math_arXiv_v0.2_chunk_4.jsonl.gz  → 0.532B tokens  55.7s  10M tok/s
+  [PID 16406] DONE   Code/SQL/stack_edu  file 3/5  train-00002.parquet  → 0.569B tokens  40.6s  14M tok/s
+  [PID 16398] DONE   English/fineweb_edu  file 2/5  train-00001-of-00016.parquet  → 0.831B tokens  56.3s  15M tok/s
+  [PID 16393] DONE   Multilingual/Nepali/cc100  file 1/1  ne.txt.xz  → 0.315B tokens  31.1s  10M tok/s
+  [PID 16429] DONE   Multilingual/Sinhala/cc100  file 1/1  si.txt.xz  → 0.322B tokens  32.6s  10M tok/s
+  [PID 16408] DONE   Scientific/peS2o  file 1/5  train-00000-of-00020.json.gz  → 0.799B tokens  77.0s  10M tok/s
+  [PID 16428] DONE   Scientific/peS2o  file 2/5  train-00002-of-00020.json.gz  → 0.799B tokens  77.1s  10M tok/s
+
+  >>> Progress: 190/200 files done, 95s elapsed <<<
+
+  [PID 16444] DONE   Scientific/peS2o  file 5/5  train-00008-of-00020.json.gz  → 0.799B tokens  77.3s  10M tok/s
+  [PID 16409] DONE   Scientific/peS2o  file 3/5  train-00004-of-00020.json.gz  → 0.799B tokens  78.2s  10M tok/s
+  [PID 16392] DONE   Scientific/peS2o  file 4/5  train-00006-of-00020.json.gz  → 0.798B tokens  78.2s  10M tok/s
+  [PID 16407] DONE   Multilingual/Korean/cc100  file 1/1  ko.txt.xz  → 7.458B tokens  718.4s  10M tok/s
+  [PID 16438] DONE   Multilingual/Mandarin/cc100  file 1/1  zh-Hans.txt.xz  → 11.652B tokens  722.3s  16M tok/s
+  [PID 16436] DONE   Multilingual/Japanese/cc100  file 1/1  ja.txt.xz  → 16.757B tokens  800.1s  21M tok/s
+  [PID 16446] DONE   Multilingual/German/cc100  file 1/1  de.txt.xz  → 13.735B tokens  881.8s  16M tok/s
+  [PID 16389] DONE   Multilingual/French/cc100  file 1/1  fr.txt.xz  → 13.027B tokens  887.8s  15M tok/s
+  [PID 16448] DONE   Multilingual/Farsi/cc100  file 1/1  fa.txt.xz  → 17.635B tokens  1342.9s  13M tok/s
+  [PID 16413] DONE   Multilingual/Russian/cc100  file 1/1  ru.txt.xz  → 31.253B tokens  2660.9s  12M tok/s
+
+  >>> Progress: 200/200 files done, 2692s elapsed <<<
+
+
+  All 200 files processed in 2692s (44.9m)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  PHASE 3: Aggregating and extrapolating...
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  Source                                          Files   Disk GB    Est Tokens         Quota     Will Take  tok/byte
+  ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  English/wikipedia                                  11     11.3G        4.35B      take all        4.35B    0.3583
+  English/dclm                                     2790    672.3G      374.26B       100.00B      100.00B    0.5185
+  English/fineweb_edu                              2409   4210.0G     1594.75B       196.00B      196.00B    0.3528
+  Math/MathPile/arXiv                                 1      0.8G        0.53B        40.00B        0.53B    0.6241
+  Math/MathPile/commoncrawl                           2      0.8G        0.50B        40.00B        0.50B    0.5984
+  Math/MathPile/textbooks                             2      0.1G        0.13B        40.00B        0.13B    0.8457
+  Math/MathPile/wikipedia                             1      0.1G        0.04B        40.00B        0.04B    0.5471
+  Math/MathPile/stackexchange                        11      0.3G        0.00B        40.00B        0.00B    0.0000
+  Math/finemath4+                                    64     17.1G        7.90B        80.00B        7.90B    0.4303
+  Math/finemath3+                                   128     60.6G       26.63B        80.00B       26.63B    0.4094
+  Code/Python/starcoderdata                          59     21.6G        6.94B      take all        6.94B    0.2996
+  Code/Python/BIGCODE                                42     19.5G        2.23B      take all        2.23B    0.1067
+  Code/Python/stack_edu                              40     15.7G        7.14B      take all        7.14B    0.4241
+  Code/Cpp/starcoderdata                             48     15.3G        6.02B      take all        6.02B    0.3665
+  Code/Cpp/BIGCODE                                   42     19.5G        2.41B      take all        2.41B    0.1152
+  Code/Cpp/stack_edu                                 33     11.8G        6.63B      take all        6.63B    0.5222
+  Code/JavaScript/starcoderdata                      65     23.2G        7.88B      take all        7.88B    0.3162
+  Code/JavaScript/BIGCODE                            43     19.6G        1.89B      take all        1.89B    0.0897
+  Code/JavaScript/stack_edu                          27      9.6G        4.66B      take all        4.66B    0.4508
+  Code/Java/BIGCODE                                   0      0.0G        0.00B      take all        0.00B    0.0000
+  Code/Java/stack_edu                                41     14.5G        6.89B      take all        6.89B    0.4423
+  Code/HTML/starcoderdata                            29      9.4G        3.24B      take all        3.24B    0.3205
+  Code/HTML/BIGCODE                                  42     19.5G        1.49B      take all        1.49B    0.0713
+  Code/Fortran/starcoderdata                          2      0.6G        0.25B      take all        0.25B    0.4087
+  Code/Fortran/BIGCODE                                8      3.7G        0.56B      take all        0.56B    0.1411
+  Code/Rust/starcoderdata                             9      2.7G        1.13B      take all        1.13B    0.3922
+  Code/Rust/BIGCODE                                   0      0.0G        0.00B      take all        0.00B    0.0000
+  Code/C/BIGCODE                                     42     19.5G        2.79B      take all        2.79B    0.1334
+  Code/C/stack_edu                                   12      4.3G        2.47B      take all        2.47B    0.5346
+  Code/TypeScript/BIGCODE                             0      0.0G        0.00B      take all        0.00B    0.0000
+  Code/TypeScript/stack_edu                           9      2.6G        1.43B      take all        1.43B    0.5045
+  Code/SQL/BIGCODE                                    0      0.0G        0.00B      take all        0.00B    0.0000
+  Code/SQL/stack_edu                                  6      3.6G        2.81B      take all        2.81B    0.7316
+  Code/Shell/BIGCODE                                 23     10.5G        1.28B      take all        1.28B    0.1140
+  Code/Shell/stack_edu                                9      2.6G        1.22B      take all        1.22B    0.4436
+  Scientific/peS2o                                   11     21.3G       11.58B      take all       11.58B    0.5072
+  Scientific/arxiv                                   16     13.5G        8.35B      take all        8.35B    0.5751
+  Multilingual/Hindi/sangraha                       113     39.8G       11.59B         6.82B        6.82B    0.2714
+  Multilingual/Bengali/sangraha                      36     12.7G        2.70B         6.82B        2.70B    0.1977
+  Multilingual/Urdu/sangraha                          8      3.5G        1.33B         6.82B        1.33B    0.3504
+  Multilingual/Tamil/sangraha                        18      5.6G        0.93B         6.82B        0.93B    0.1538
+  Multilingual/Marathi/sangraha                       7      2.3G        0.48B         6.82B        0.48B    0.1899
+  Multilingual/Gujarati/sangraha                      4      1.3G        0.32B         6.82B        0.32B    0.2236
+  Multilingual/Malayalam/sangraha                     6      2.0G        0.28B         6.82B        0.28B    0.1304
+  Multilingual/Kannada/sangraha                       4      1.4G        0.23B         6.82B        0.23B    0.1568
+  Multilingual/Punjabi/sangraha                       2      0.4G        0.12B         6.82B        0.12B    0.2658
+  Multilingual/Odia/sangraha                          1      0.1G        0.02B         6.82B        0.02B    0.1974
+  Multilingual/Russian/cc100                          1     45.9G       31.25B         6.82B        6.82B    0.6343
+  Multilingual/French/cc100                           1     14.0G       13.03B         6.82B        6.82B    0.8679
+  Multilingual/German/cc100                           1     17.1G       13.73B         6.82B        6.82B    0.7489
+  Multilingual/Mandarin/cc100                         1     13.7G       11.65B         6.82B        6.82B    0.7949
+  Multilingual/Japanese/cc100                         1     14.8G       16.76B         6.82B        6.82B    1.0528
+  Multilingual/Korean/cc100                           1     13.1G        7.46B         6.82B        6.82B    0.5304
+  Multilingual/Farsi/cc100                            1     19.2G       17.63B         6.82B        6.82B    0.8545
+  Multilingual/Nepali/cc100                           1      0.4G        0.32B         6.82B        0.32B    0.7648
+  Multilingual/Sinhala/cc100                          1      0.4G        0.32B         6.82B        0.32B    0.6795
+  Multilingual/Pashto/cc100                           1      0.1G        0.13B         6.82B        0.13B    1.1500
+  Multilingual/Burmese/cc100                          1      0.0G        0.02B         6.82B        0.02B    0.4040
+
+========================================================================================================================
+  AGGREGATED BY OUTPUT FOLDER
+========================================================================================================================
+
+  Output Folder                           Available         Quota     Will Take    Shards
+  ─────────────────────────────────────────────────────────────────────────────────────
+  Code/C                                     5.27B      take all        5.27B        52
+  Code/Cpp                                  15.05B      take all       15.05B       150
+  Code/Fortran                               0.81B      take all        0.81B         8
+  Code/HTML                                  4.73B      take all        4.73B        47
+  Code/Java                                  6.89B      take all        6.89B        68
+  Code/JavaScript                           14.42B      take all       14.42B       144
+  Code/Python                               16.31B      take all       16.31B       163
+  Code/Rust                                  1.13B      take all        1.13B        11
+  Code/SQL                                   2.81B      take all        2.81B        28
+  Code/Shell                                 2.50B      take all        2.50B        25
+  Code/TypeScript                            1.43B      take all        1.43B        14
+  English/dclm                             374.26B       100.00B      100.00B     1,000
+  English/fineweb_edu                     1594.75B       196.00B      196.00B     1,960
+  English/wikipedia                          4.35B      take all        4.35B        43
+  Math/MathPile                              1.21B        40.00B        1.21B        12
+  Math/finemath3+                           26.63B        80.00B       26.63B       266
+  Math/finemath4+                            7.90B        80.00B        7.90B        79
+  Multilingual/Bengali                       2.70B         6.82B        2.70B        26
+  Multilingual/Burmese                       0.02B         6.82B        0.02B         0
+  Multilingual/Farsi                        17.63B         6.82B        6.82B        68
+  Multilingual/French                       13.03B         6.82B        6.82B        68
+  Multilingual/German                       13.73B         6.82B        6.82B        68
+  Multilingual/Gujarati                      0.32B         6.82B        0.32B         3
+  Multilingual/Hindi                        11.59B         6.82B        6.82B        68
+  Multilingual/Japanese                     16.76B         6.82B        6.82B        68
+  Multilingual/Kannada                       0.23B         6.82B        0.23B         2
+  Multilingual/Korean                        7.46B         6.82B        6.82B        68
+  Multilingual/Malayalam                     0.28B         6.82B        0.28B         2
+  Multilingual/Mandarin                     11.65B         6.82B        6.82B        68
+  Multilingual/Marathi                       0.48B         6.82B        0.48B         4
+  Multilingual/Nepali                        0.32B         6.82B        0.32B         3
+  Multilingual/Odia                          0.02B         6.82B        0.02B         0
+  Multilingual/Pashto                        0.13B         6.82B        0.13B         1
+  Multilingual/Punjabi                       0.12B         6.82B        0.12B         1
+  Multilingual/Russian                      31.25B         6.82B        6.82B        68
+  Multilingual/Sinhala                       0.32B         6.82B        0.32B         3
+  Multilingual/Tamil                         0.93B         6.82B        0.93B         9
+  Multilingual/Urdu                          1.33B         6.82B        1.33B        13
+  Scientific/arxiv                           8.35B      take all        8.35B        83
+  Scientific/peS2o                          11.58B      take all       11.58B       115
+
+========================================================================================================================
+  DOMAIN SUMMARY
+========================================================================================================================
+
+  Domain              Available     Will Take    Shards
+  ───────────────────────────────────────────────────────
+  English             1973.36B      300.35B     3,003
+  Math                  35.74B       35.74B       357
+  Code                  71.36B       71.36B       710
+  Scientific            19.93B       19.93B       198
+  Multilingual         130.29B       61.73B       611
+  ───────────────────────────────────────────────────────
+  TOTAL               2230.67B      489.11B     4,879
+
+========================================================================================================================
+  SPEC vs REALITY
+========================================================================================================================
+
+  Domain              Spec Said        Actual         Delta
+  ───────────────────────────────────────────────────────
+  English               300.0B      1973.4B  +    1673.4B
+  Math                   44.0B        35.7B        -8.3B
+  Code                   80.0B        71.4B        -8.6B
+  Scientific             23.0B        19.9B        -3.1B
+  Multilingual           62.0B       130.3B  +      68.3B
+  ───────────────────────────────────────────────────────
+  TOTAL                 509.0B      2230.7B  +    1721.7B
+
+  ❌ Sources with NO FILES:
+     Code/Java/BIGCODE
+     Code/Rust/BIGCODE
+     Code/TypeScript/BIGCODE
+     Code/SQL/BIGCODE
+
+  ⚠️  5 individual file(s) had errors:
+     Math/MathPile/stackexchange / datascience.stackexchange.com.jsonl.gz: sequence item 0: expected str instance, dict found
+     Math/MathPile/stackexchange / cs.stackexchange.com.jsonl.gz: sequence item 0: expected str instance, dict found
+     Math/MathPile/stackexchange / math.stackexchange.com.jsonl.gz: sequence item 0: expected str instance, dict found
+     Math/MathPile/stackexchange / physics.stackexchange.com.jsonl.gz: sequence item 0: expected str instance, dict found
+     Math/MathPile/stackexchange / mathematica.stackexchange.com.jsonl.gz: sequence item 0: expected str instance, dict found
+
+  Total estimation time: 2692s (44.9m)
+========================================================================================================================
